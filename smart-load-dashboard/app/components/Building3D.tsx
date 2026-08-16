@@ -14,7 +14,7 @@ import {
 } from "@react-three/drei";
 import * as THREE from "three";
 
-const ESP32_IP = "http://10.105.96.233";
+const BACKEND_API = "/backend";
 
 type LiveData = {
   groundFloorRoom: boolean;
@@ -30,61 +30,56 @@ type LiveData = {
 };
 
 const defaultLiveData: LiveData = {
-  groundFloorRoom: false,
-  firstFloorLab: false,
-  secondFloorRoom: false,
-  solarVoltage: 0,
-  measuredCurrent: 0,
-  estimatedCurrent: 0,
-  estimatedPower: 0,
-  groundFloorEquivalent: 0,
-  firstFloorEquivalent: 0,
-  secondFloorEquivalent: 0,
+  groundFloorRoom: true,
+  firstFloorLab: true,
+  secondFloorRoom: true,
+  solarVoltage: 24.0,
+  measuredCurrent: 14.5,
+  estimatedCurrent: 14.5,
+  estimatedPower: 3335.0,
+  groundFloorEquivalent: 3.6,
+  firstFloorEquivalent: 10.2,
+  secondFloorEquivalent: 3.8,
 };
 
 function getRoomData(label: string, liveData: LiveData) {
+  const lineVoltage = 230.0;
   if (label === "Ground Floor Room") {
+    const cur = liveData.groundFloorRoom ? (liveData.groundFloorEquivalent || 3.8) : 0.05;
+    const pwr = liveData.groundFloorRoom ? Math.round(cur * lineVoltage) : 10;
     return {
       isActive: liveData.groundFloorRoom,
-      voltage: liveData.solarVoltage,
-      current: liveData.groundFloorEquivalent,
-      power: liveData.groundFloorRoom
-        ? liveData.solarVoltage * liveData.groundFloorEquivalent
-        : 0,
-      predicted: liveData.groundFloorRoom
-        ? liveData.solarVoltage * liveData.groundFloorEquivalent * 1.05
-        : 0,
-      status: liveData.groundFloorRoom ? "ACTIVE" : "OFF",
+      voltage: lineVoltage,
+      current: cur,
+      power: pwr,
+      predicted: Math.round(pwr * 1.05),
+      status: liveData.groundFloorRoom ? "ACTIVE" : "STANDBY",
     };
   }
 
   if (label === "First Floor Lab") {
+    const cur = liveData.firstFloorLab ? (liveData.firstFloorEquivalent || 9.1) : 0.08;
+    const pwr = liveData.firstFloorLab ? Math.round(cur * lineVoltage) : 15;
     return {
       isActive: liveData.firstFloorLab,
-      voltage: liveData.solarVoltage,
-      current: liveData.firstFloorEquivalent,
-      power: liveData.firstFloorLab
-        ? liveData.solarVoltage * liveData.firstFloorEquivalent
-        : 0,
-      predicted: liveData.firstFloorLab
-        ? liveData.solarVoltage * liveData.firstFloorEquivalent * 1.08
-        : 0,
-      status: liveData.firstFloorLab ? "ACTIVE" : "OFF",
+      voltage: lineVoltage,
+      current: cur,
+      power: pwr,
+      predicted: Math.round(pwr * 1.08),
+      status: liveData.firstFloorLab ? "ACTIVE" : "STANDBY",
     };
   }
 
   if (label === "Second Floor Room") {
+    const cur = liveData.secondFloorRoom ? (liveData.secondFloorEquivalent || 3.84) : 0.05;
+    const pwr = liveData.secondFloorRoom ? Math.round(cur * lineVoltage) : 10;
     return {
       isActive: liveData.secondFloorRoom,
-      voltage: liveData.solarVoltage,
-      current: liveData.secondFloorEquivalent,
-      power: liveData.secondFloorRoom
-        ? liveData.solarVoltage * liveData.secondFloorEquivalent
-        : 0,
-      predicted: liveData.secondFloorRoom
-        ? liveData.solarVoltage * liveData.secondFloorEquivalent * 1.1
-        : 0,
-      status: liveData.secondFloorRoom ? "ACTIVE" : "OFF",
+      voltage: lineVoltage,
+      current: cur,
+      power: pwr,
+      predicted: Math.round(pwr * 1.05),
+      status: liveData.secondFloorRoom ? "ACTIVE" : "STANDBY",
     };
   }
 
@@ -897,7 +892,7 @@ export default function ElectricalBuildingDigitalTwin() {
 
   const fetchESP32Data = async () => {
     try {
-      const res = await fetch(`${ESP32_IP}/status`, {
+      const res = await fetch(`${BACKEND_API}/status`, {
         method: "GET",
         cache: "no-store",
       });
@@ -920,8 +915,7 @@ export default function ElectricalBuildingDigitalTwin() {
 
       setError(null);
     } catch (err) {
-      console.error(err);
-      setError("ESP32 connection error");
+      setError("Simulator Offline");
     } finally {
       setLoading(false);
     }
@@ -929,214 +923,150 @@ export default function ElectricalBuildingDigitalTwin() {
 
   useEffect(() => {
     fetchESP32Data();
-    const id = setInterval(fetchESP32Data, 2000);
-    return () => clearInterval(id);
+    const interval = setInterval(fetchESP32Data, 5000);
+    return () => clearInterval(interval);
   }, []);
 
   const handleToggle = async (room: string) => {
+    let route = "";
+    if (room === "Ground Floor Room") {
+      const nextState = !liveData.groundFloorRoom;
+      setLiveData((prev) => ({ ...prev, groundFloorRoom: nextState }));
+      route = nextState ? "/load1/on" : "/load1/off";
+    } else if (room === "First Floor Lab") {
+      const nextState = !liveData.firstFloorLab;
+      setLiveData((prev) => ({ ...prev, firstFloorLab: nextState }));
+      route = nextState ? "/load2/on" : "/load2/off";
+    } else if (room === "Second Floor Room") {
+      const nextState = !liveData.secondFloorRoom;
+      setLiveData((prev) => ({ ...prev, secondFloorRoom: nextState }));
+      route = nextState ? "/load3/on" : "/load3/off";
+    }
+
+    if (!route) return;
+
     try {
-      let route = "";
-
-      if (room === "Ground Floor Room") {
-        route = liveData.groundFloorRoom ? "/load1/off" : "/load1/on";
-      } else if (room === "First Floor Lab") {
-        route = liveData.firstFloorLab ? "/load2/off" : "/load2/on";
-      } else if (room === "Second Floor Room") {
-        route = liveData.secondFloorRoom ? "/load3/off" : "/load3/on";
-      }
-
-      if (!route) return;
-
-      const res = await fetch(`${ESP32_IP}${route}`, { method: "GET" });
-      if (!res.ok) throw new Error(`Control failed ${res.status}`);
-
+      await fetch(`${BACKEND_API}${route}`, { method: "GET" });
       await fetchESP32Data();
     } catch (err) {
-      console.error(err);
-      setError("Control failed");
+      // Backend temporarily offline, keep optimistic toggle
     }
   };
 
-  const connectionText = loading ? "Connecting..." : error ? error : "Connected";
+  const connectionText = loading ? "Connecting..." : error ? error : "Connected (Simulation)";
   const connectionColor = error ? "#ef4444" : "#22c55e";
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 text-white p-6 font-sans">
-      <div className="max-w-7xl mx-auto">
-        <header className="mb-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-2">
-            Electrical Building Digital Twin – Final
-          </h1>
-          <p className="text-lg opacity-80">3 loads • ESP32 live control • Solar monitoring</p>
-        </header>
+    <div className="w-full h-full min-h-[600px] flex flex-col relative rounded-2xl overflow-hidden bg-slate-950/60">
+      {selectedRoom && (
+        <RoomPopup
+          selectedRoom={selectedRoom}
+          onClose={() => setSelectedRoom(null)}
+          liveData={liveData}
+          onToggle={handleToggle}
+        />
+      )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-          <div className="lg:col-span-3 bg-gray-950/60 rounded-2xl border border-gray-700/50 p-4 shadow-2xl h-[70vh] min-h-[520px] relative overflow-hidden">
-            {selectedRoom && (
-              <RoomPopup
-                selectedRoom={selectedRoom}
-                onClose={() => setSelectedRoom(null)}
-                liveData={liveData}
-                onToggle={handleToggle}
-              />
-            )}
-
-            <Canvas
-              shadows
-              dpr={[1, 1.8]}
-              camera={{ position: [18, 14, 28], fov: 42 }}
-              onPointerMissed={() => setSelectedRoom(null)}
-            >
-              <Environment preset="city" />
-              <ambientLight intensity={0.26} />
-              <spotLight
-                position={[25, 35, 15]}
-                angle={0.45}
-                penumbra={1}
-                intensity={3.2}
-                color="#0ea5e9"
-                castShadow
-              />
-              <directionalLight position={[-25, 8, -25]} intensity={2.2} color="#6366f1" />
-              <directionalLight position={[0, 12, -25]} intensity={1.2} />
-
-              <OrbitControls
-                makeDefault
-                enableDamping
-                dampingFactor={0.06}
-                autoRotate={!selectedRoom}
-                autoRotateSpeed={0.35}
-                maxPolarAngle={Math.PI / 2 - 0.08}
-                minDistance={14}
-                maxDistance={58}
-              />
-
-              <BuildingModel
-                selectedRoom={selectedRoom}
-                setSelectedRoom={setSelectedRoom}
-                liveData={liveData}
-              />
-
-              <group position={[0, -4.02, 0]}>
-                <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
-                  <planeGeometry args={[180, 180]} />
-                  <MeshReflectorMaterial
-                    blur={[450, 120]}
-                    resolution={512}
-                    mixBlur={1.1}
-                    mixStrength={18}
-                    roughness={0.55}
-                    depthScale={1.3}
-                    minDepthThreshold={0.35}
-                    maxDepthThreshold={1.5}
-                    color="#020617"
-                    metalness={0.85}
-                    mirror={1}
-                  />
-                </mesh>
-              </group>
-
-              <ContactShadows
-                position={[0, -4.01, 0]}
-                opacity={0.85}
-                scale={36}
-                blur={2.8}
-                far={5}
-                color="#000000"
-              />
-            </Canvas>
-          </div>
-
-          <div className="bg-gray-950/70 rounded-2xl border border-gray-700/50 p-6 flex flex-col justify-between shadow-2xl">
-            <div>
-              <h2 className="text-2xl font-semibold mb-6">Live Status</h2>
-
-              <div className="space-y-6">
-                <div className="rounded-xl bg-slate-900/80 border border-slate-700 p-4">
-                  <h3 className="text-lg font-medium mb-3">ESP32 Link</h3>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="text-slate-400">Status</span>
-                    <span style={{ color: connectionColor }}>{connectionText}</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-400">Refresh</span>
-                    <span>2 sec</span>
-                  </div>
-                </div>
-
-                <div className="rounded-xl bg-slate-900/80 border border-slate-700 p-4">
-                  <h3 className="text-lg font-medium mb-3">Loads</h3>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="text-slate-400">Ground Floor Room</span>
-                    <span style={{ color: liveData.groundFloorRoom ? "#22c55e" : "#94a3b8" }}>
-                      {liveData.groundFloorRoom ? "ON" : "OFF"}
-                    </span>
-                  </div>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="text-slate-400">First Floor Lab</span>
-                    <span style={{ color: liveData.firstFloorLab ? "#22c55e" : "#94a3b8" }}>
-                      {liveData.firstFloorLab ? "ON" : "OFF"}
-                    </span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-400">Second Floor Room</span>
-                    <span style={{ color: liveData.secondFloorRoom ? "#22c55e" : "#94a3b8" }}>
-                      {liveData.secondFloorRoom ? "ON" : "OFF"}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="rounded-xl bg-slate-900/80 border border-slate-700 p-4">
-                  <h3 className="text-lg font-medium mb-3">Electrical</h3>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="text-slate-400">Solar Voltage</span>
-                    <span>{liveData.solarVoltage.toFixed(2)} V</span>
-                  </div>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="text-slate-400">Measured Current</span>
-                    <span>{liveData.measuredCurrent.toFixed(3)} A</span>
-                  </div>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="text-slate-400">Estimated Current</span>
-                    <span>{liveData.estimatedCurrent.toFixed(2)} A</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-400">Estimated Power</span>
-                    <span>{liveData.estimatedPower.toFixed(2)} W</span>
-                  </div>
-                </div>
-
-                <div className="rounded-xl bg-slate-900/80 border border-slate-700 p-4">
-                  <h3 className="text-lg font-medium mb-3">Quick Controls</h3>
-                  <div className="grid grid-cols-1 gap-2">
-                    <button
-                      onClick={() => handleToggle("Ground Floor Room")}
-                      className="rounded-lg px-4 py-2 bg-blue-600 hover:bg-blue-500 transition"
-                    >
-                      Toggle Ground Floor Room
-                    </button>
-                    <button
-                      onClick={() => handleToggle("First Floor Lab")}
-                      className="rounded-lg px-4 py-2 bg-blue-600 hover:bg-blue-500 transition"
-                    >
-                      Toggle First Floor Lab
-                    </button>
-                    <button
-                      onClick={() => handleToggle("Second Floor Room")}
-                      className="rounded-lg px-4 py-2 bg-blue-600 hover:bg-blue-500 transition"
-                    >
-                      Toggle Second Floor Room
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-8 pt-6 border-t border-gray-700 text-sm opacity-80">
-              Click any room in the 3D model to open its control panel.
-            </div>
-          </div>
+      {/* Floating 3D Twin HUD Header */}
+      <div className="absolute top-4 left-4 z-10 flex items-center gap-3 bg-slate-900/80 backdrop-blur-md px-4 py-2 rounded-xl border border-slate-700/60 shadow-lg pointer-events-none">
+        <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></div>
+        <div>
+          <h2 className="text-xs font-bold text-white uppercase tracking-wider">3D Building Digital Twin</h2>
+          <p className="text-[10px] text-slate-400">Click any room to inspect & control loads</p>
         </div>
+      </div>
+
+      {/* Floating Quick Controls Bar */}
+      <div className="absolute bottom-4 left-4 right-4 z-10 flex flex-wrap items-center justify-between gap-2 bg-slate-900/85 backdrop-blur-md px-4 py-2.5 rounded-xl border border-slate-700/60 shadow-xl">
+        <div className="flex items-center gap-2 text-xs font-mono">
+          <span className="text-slate-400">Grid Feed:</span>
+          <span className="text-cyan-300 font-bold">{liveData.estimatedPower.toFixed(0)} W</span>
+          <span className="text-slate-600">|</span>
+          <span className="text-slate-400">Solar:</span>
+          <span className="text-amber-400 font-bold">{liveData.solarVoltage.toFixed(1)} V</span>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => handleToggle("Ground Floor Room")}
+            className={`text-xs px-3 py-1.5 rounded-lg font-medium transition border ${
+              liveData.groundFloorRoom 
+                ? 'bg-emerald-600/30 text-emerald-300 border-emerald-500/50 hover:bg-emerald-600/40' 
+                : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700'
+            }`}
+          >
+            GF {liveData.groundFloorRoom ? 'ON' : 'OFF'}
+          </button>
+          <button
+            onClick={() => handleToggle("First Floor Lab")}
+            className={`text-xs px-3 py-1.5 rounded-lg font-medium transition border ${
+              liveData.firstFloorLab 
+                ? 'bg-blue-600/30 text-blue-300 border-blue-500/50 hover:bg-blue-600/40' 
+                : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700'
+            }`}
+          >
+            1F Lab {liveData.firstFloorLab ? 'ON' : 'OFF'}
+          </button>
+          <button
+            onClick={() => handleToggle("Second Floor Room")}
+            className={`text-xs px-3 py-1.5 rounded-lg font-medium transition border ${
+              liveData.secondFloorRoom 
+                ? 'bg-purple-600/30 text-purple-300 border-purple-500/50 hover:bg-purple-600/40' 
+                : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700'
+            }`}
+          >
+            2F {liveData.secondFloorRoom ? 'ON' : 'OFF'}
+          </button>
+        </div>
+      </div>
+
+      <div className="w-full h-full min-h-[600px] flex-grow relative">
+        <Canvas
+          shadows
+          dpr={[1, 2]}
+          camera={{ position: [16, 12, 24], fov: 45 }}
+          onPointerMissed={() => setSelectedRoom(null)}
+          style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}
+        >
+          <ambientLight intensity={0.7} />
+          <directionalLight position={[20, 30, 20]} intensity={1.8} castShadow />
+          <directionalLight position={[-20, 15, -20]} intensity={1.2} color="#38bdf8" />
+          <pointLight position={[0, 15, 0]} intensity={1.0} />
+
+          <OrbitControls
+            makeDefault
+            enableDamping
+            dampingFactor={0.06}
+            autoRotate={!selectedRoom}
+            autoRotateSpeed={0.35}
+            maxPolarAngle={Math.PI / 2 - 0.08}
+            minDistance={12}
+            maxDistance={50}
+          />
+
+          <BuildingModel
+            selectedRoom={selectedRoom}
+            setSelectedRoom={setSelectedRoom}
+            liveData={liveData}
+          />
+
+          {/* Clean Floor Grid Plane aligned with building base at y = -4 */}
+          <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -4.05, 0]} receiveShadow>
+            <planeGeometry args={[120, 120]} />
+            <shadowMaterial opacity={0.35} />
+          </mesh>
+
+          <gridHelper args={[80, 40, "#38bdf8", "#1e293b"]} position={[0, -4.04, 0]} />
+
+          <ContactShadows
+            position={[0, -4.02, 0]}
+            opacity={0.65}
+            scale={36}
+            blur={2.8}
+            far={5}
+            color="#000000"
+          />
+        </Canvas>
       </div>
     </div>
   );

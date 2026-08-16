@@ -1,28 +1,29 @@
-from prophet import Prophet
-import pandas as pd
-
-def predict_next(history, steps=10):
+def predict_next(history: list, steps: int = 10):
     """
-    history = list of kW values
-    steps = how many future points to predict
+    Predict next points using moving average and linear extrapolation.
+    Zero heavy dependencies (no Prophet or pandas required).
     """
+    if not history or len(history) == 0:
+        return [0.0] * steps
 
-    if len(history) < 5:
-        return [history[-1]] * steps if history else [0] * steps
+    clean_history = [float(x) for x in history]
 
-    # Convert to dataframe
-    df = pd.DataFrame({
-        "ds": pd.date_range(start="2024-01-01", periods=len(history), freq="T"),
-        "y": history
-    })
+    if len(clean_history) < 3:
+        return [round(clean_history[-1], 3)] * steps
 
-    # Train model
-    model = Prophet()
-    model.fit(df)
+    # Rolling average and momentum trend
+    window = min(len(clean_history), 5)
+    recent = clean_history[-window:]
+    last_val = clean_history[-1]
+    avg_val = sum(recent) / float(window)
+    
+    # Calculate simple slope
+    trend_delta = (last_val - recent[0]) / float(window)
 
-    # Future timestamps
-    future = model.make_future_dataframe(periods=steps, freq="T")
-    forecast = model.predict(future)
+    forecast = []
+    for i in range(1, steps + 1):
+        # Projected value with decayed trend
+        projected = last_val + (trend_delta * (0.85 ** i) * i)
+        forecast.append(round(max(0.0, projected), 3))
 
-    # Return only future predictions
-    return forecast["yhat"].tail(steps).tolist()
+    return forecast

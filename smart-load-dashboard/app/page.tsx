@@ -11,47 +11,50 @@ export default function Home() {
   const [tab, setTab] = useState("home");
 
   return (
-    <div className="min-h-screen bg-[#020617] text-white font-sans overflow-hidden flex flex-col">
+    <div className="min-h-screen font-sans flex flex-col relative selection:bg-blue-500/20">
       
+      {/* Background Decorative Frosted Light Blooms */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
+        <div className="absolute -top-40 left-1/4 w-[600px] h-[600px] bg-blue-400/10 rounded-full blur-[140px]"></div>
+        <div className="absolute top-1/3 -right-20 w-[500px] h-[500px] bg-indigo-400/10 rounded-full blur-[130px]"></div>
+        <div className="absolute -bottom-20 left-1/3 w-[600px] h-[600px] bg-emerald-400/10 rounded-full blur-[140px]"></div>
+      </div>
+
       {/* NAVBAR / HEADER */}
-      {/* This assumes your NavbarTabs component handles the dark aesthetic header */}
       <NavbarTabs tab={tab} setTab={setTab} />
 
       {/* MAIN CONTENT AREA */}
       <main className="flex-grow relative p-4 md:p-6 overflow-y-auto custom-scrollbar">
         <div className="max-w-[1600px] mx-auto h-full">
 
-          {/* HOME TAB: 3D Twin & Dashboard 
-            Using 'display' instead of conditional rendering so the 3D Canvas doesn't lag/reload.
-          */}
+          {/* HOME TAB: 3D Twin & Substation Dashboard */}
           <div 
-            className="h-full grid grid-cols-1 lg:grid-cols-3 gap-6 animation-fade-in"
+            className="h-full grid grid-cols-1 lg:grid-cols-3 gap-6 transition-opacity duration-300"
             style={{ display: tab === "home" ? 'grid' : 'none' }}
           >
-            {/* 3D Model Container - gets 2 columns for a wider aspect ratio */}
-            <div className="lg:col-span-2 bg-slate-900/40 rounded-2xl border border-slate-800 shadow-2xl relative overflow-hidden min-h-[500px]">
+            <div className="lg:col-span-2 glass-panel rounded-3xl relative overflow-hidden min-h-[620px] h-[75vh] flex flex-col p-1 shadow-lg shadow-slate-200/50">
               <Building3D />
             </div>
-            
-            {/* Dashboard Container - acts as the right-side control panel */}
             <div className="lg:col-span-1 flex flex-col gap-6">
               <Dashboard />
             </div>
           </div>
 
           {/* CURVE TAB */}
-          {tab === "curve" && (
-            <div className="h-full min-h-[600px] animation-fade-in">
-              <LoadCurve />
-            </div>
-          )}
+          <div 
+            className="h-full min-h-[600px] transition-opacity duration-300"
+            style={{ display: tab === "curve" ? 'block' : 'none' }}
+          >
+            <LoadCurve />
+          </div>
 
           {/* AI INSIGHTS TAB */}
-          {tab === "ai" && (
-            <div className="h-full animation-fade-in">
-              <AIInsights />
-            </div>
-          )}
+          <div 
+            className="h-full transition-opacity duration-300"
+            style={{ display: tab === "ai" ? 'block' : 'none' }}
+          >
+            <AIInsights />
+          </div>
 
         </div>
       </main>
