@@ -1,0 +1,7232 @@
+[
+  {
+    "_id": {
+      "$oid": "69bf7cc4a7422aa78ba01720"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:16.894Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7ceba7422aa78ba0172e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:55.088Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d42a7422aa78ba0174e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:22.919Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.87,
+    "kVA": 1.718,
+    "kVAR": 0.846
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d48a7422aa78ba01750"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:28.199Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.83,
+    "kVA": 1.801,
+    "kVAR": 1.004
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d73a7422aa78ba01760"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:11.241Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.86,
+    "kVA": 2.14,
+    "kVAR": 1.093
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e1da7422aa78ba0179e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:01.810Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.034,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e73a7422aa78ba017be"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:27.239Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.034,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e8ea7422aa78ba017c8"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:54.121Z"
+    },
+    "voltage": 230.0,
+    "current": 1.5,
+    "kW": 0.345,
+    "kWh": 0.00048,
+    "powerFactor": 0.83,
+    "kVA": 0.416,
+    "kVAR": 0.232
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e98a7422aa78ba017cc"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:31:04.894Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf863be35139c15563fce4"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:03:39.870Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf8666e35139c15563fcf4"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:22.197Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf866be35139c15563fcf6"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:27.897Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1d67339049dff4c1861"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:26.709Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.82,
+    "kVA": 1.823,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bf7cf5a7422aa78ba01732"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:05.949Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d38a7422aa78ba0174a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:12.197Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.82,
+    "kVA": 1.823,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bf7de0a7422aa78ba01788"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:00.965Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.8,
+    "kVA": 1.15,
+    "kVAR": 0.69
+  },
+  {
+    "_id": {
+      "$oid": "69bf8656e35139c15563fcee"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:06.438Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf8676e35139c15563fcfa"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:38.854Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf86a7e35139c15563fd0c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:27.909Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.82,
+    "kVA": 2.244,
+    "kVAR": 1.284
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1a37339049dff4c184f"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:35.717Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2387339049dff4c1885"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:03:04.645Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.84,
+    "kVA": 2.19,
+    "kVAR": 1.188
+  },
+  {
+    "_id": {
+      "$oid": "69bf7deba7422aa78ba0178c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:11.538Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e0da7422aa78ba01798"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:45.501Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.81,
+    "kVA": 1.136,
+    "kVAR": 0.666
+  },
+  {
+    "_id": {
+      "$oid": "69bf7ea5a7422aa78ba017d0"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:31:17.929Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1b37339049dff4c1855"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:51.712Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.8,
+    "kVA": 1.869,
+    "kVAR": 1.122
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1b87339049dff4c1857"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:56.768Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.86,
+    "kVA": 1.738,
+    "kVAR": 0.886
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1ed7339049dff4c1869"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:49.758Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.87,
+    "kVA": 1.718,
+    "kVAR": 0.846
+  },
+  {
+    "_id": {
+      "$oid": "69bfa21e7339049dff4c187b"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:38.127Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.87,
+    "kVA": 2.115,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2487339049dff4c188b"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:03:20.643Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.82,
+    "kVA": 2.244,
+    "kVAR": 1.284
+  },
+  {
+    "_id": {
+      "$oid": "69bf7cd5a7422aa78ba01726"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:33.184Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7ce0a7422aa78ba0172a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:44.810Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d05a7422aa78ba01738"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:21.970Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d3da7422aa78ba0174c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:17.570Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.89,
+    "kVA": 1.68,
+    "kVAR": 0.766
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d6da7422aa78ba0175e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:05.747Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.89,
+    "kVA": 2.067,
+    "kVAR": 0.942
+  },
+  {
+    "_id": {
+      "$oid": "69bf7dbba7422aa78ba0177a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:23.592Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.84,
+    "kVA": 1.095,
+    "kVAR": 0.594
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e13a7422aa78ba0179a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:51.018Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.83,
+    "kVA": 1.108,
+    "kVAR": 0.617
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e4da7422aa78ba017b0"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:49.899Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.034,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "69bf8671e35139c15563fcf8"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:33.289Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf8686e35139c15563fd00"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:54.815Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.84,
+    "kVA": 1.506,
+    "kVAR": 0.817
+  },
+  {
+    "_id": {
+      "$oid": "69bf86b7e35139c15563fd12"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:43.662Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.9,
+    "kVA": 2.044,
+    "kVAR": 0.89
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1cc7339049dff4c185d"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:16.049Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.81,
+    "kVA": 1.846,
+    "kVAR": 1.083
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2137339049dff4c1877"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:27.303Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.82,
+    "kVA": 1.823,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bf7cfba7422aa78ba01734"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:11.292Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d10a7422aa78ba0173c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:32.408Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d4da7422aa78ba01752"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:33.696Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.89,
+    "kVA": 1.68,
+    "kVAR": 0.766
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e42a7422aa78ba017ac"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:38.955Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.84,
+    "kVA": 1.095,
+    "kVAR": 0.594
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e68a7422aa78ba017ba"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:16.664Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf865be35139c15563fcf0"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:11.705Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf867ce35139c15563fcfc"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:44.273Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.87,
+    "kVA": 1.057,
+    "kVAR": 0.52
+  },
+  {
+    "_id": {
+      "$oid": "69bf86c7e35139c15563fd18"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:59.672Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.89,
+    "kVA": 1.421,
+    "kVAR": 0.647
+  },
+  {
+    "_id": {
+      "$oid": "69bf86cde35139c15563fd1a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:06:05.349Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.9,
+    "kVA": 1.406,
+    "kVAR": 0.614
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1ae7339049dff4c1853"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:46.081Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7ccaa7422aa78ba01722"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:22.783Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7ce5a7422aa78ba0172c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:49.770Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d15a7422aa78ba0173e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:37.850Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d33a7422aa78ba01748"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:07.303Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.86,
+    "kVA": 1.738,
+    "kVAR": 0.886
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d88a7422aa78ba01768"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:32.337Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.86,
+    "kVA": 1.07,
+    "kVAR": 0.546
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d98a7422aa78ba0176e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:48.356Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.82,
+    "kVA": 1.122,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "69bf7dcba7422aa78ba01780"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:39.967Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.82,
+    "kVA": 1.122,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e02a7422aa78ba01794"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:34.771Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e22a7422aa78ba017a0"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:06.920Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e63a7422aa78ba017b8"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:11.258Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.86,
+    "kVA": 1.07,
+    "kVAR": 0.546
+  },
+  {
+    "_id": {
+      "$oid": "69bf864be35139c15563fcea"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:03:55.559Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf86d8e35139c15563fd1e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:06:16.013Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.81,
+    "kVA": 1.562,
+    "kVAR": 0.916
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2087339049dff4c1873"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:16.714Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.87,
+    "kVA": 1.718,
+    "kVAR": 0.846
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2187339049dff4c1879"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:32.980Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.034,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d26a7422aa78ba01744"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:54.243Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.82,
+    "kVA": 1.122,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d63a7422aa78ba0175a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:55.303Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.9,
+    "kVA": 2.044,
+    "kVAR": 0.89
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d68a7422aa78ba0175c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:00.385Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.81,
+    "kVA": 2.272,
+    "kVAR": 1.333
+  },
+  {
+    "_id": {
+      "$oid": "69bf7df0a7422aa78ba0178e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:16.759Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.8,
+    "kVA": 1.15,
+    "kVAR": 0.69
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e58a7422aa78ba017b4"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:00.442Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.83,
+    "kVA": 1.108,
+    "kVAR": 0.617
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e88a7422aa78ba017c6"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:48.994Z"
+    },
+    "voltage": 230.0,
+    "current": 1.5,
+    "kW": 0.345,
+    "kWh": 0.00048,
+    "powerFactor": 0.88,
+    "kVA": 0.392,
+    "kVAR": 0.186
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1d17339049dff4c185f"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:21.353Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.81,
+    "kVA": 1.846,
+    "kVAR": 1.083
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1e87339049dff4c1867"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:44.410Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.85,
+    "kVA": 1.759,
+    "kVAR": 0.927
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2337339049dff4c1883"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:59.572Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.85,
+    "kVA": 2.165,
+    "kVAR": 1.141
+  },
+  {
+    "_id": {
+      "$oid": "69bfa23d7339049dff4c1887"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:03:09.866Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.85,
+    "kVA": 2.165,
+    "kVAR": 1.141
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2437339049dff4c1889"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:03:15.374Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.85,
+    "kVA": 2.165,
+    "kVAR": 1.141
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d00a7422aa78ba01736"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:16.517Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d5ea7422aa78ba01758"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:50.065Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.82,
+    "kVA": 1.823,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d78a7422aa78ba01762"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:16.631Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.81,
+    "kVA": 2.272,
+    "kVAR": 1.333
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d93a7422aa78ba0176c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:43.428Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.8,
+    "kVA": 1.15,
+    "kVAR": 0.69
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e6da7422aa78ba017bc"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:21.868Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.84,
+    "kVA": 1.095,
+    "kVAR": 0.594
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e78a7422aa78ba017c0"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:32.697Z"
+    },
+    "voltage": 230.0,
+    "current": 1.5,
+    "kW": 0.345,
+    "kWh": 0.00048,
+    "powerFactor": 0.9,
+    "kVA": 0.383,
+    "kVAR": 0.166
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1a87339049dff4c1851"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:40.899Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1bf7339049dff4c1859"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:03.705Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.82,
+    "kVA": 1.823,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1f37339049dff4c186b"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:55.088Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.86,
+    "kVA": 1.738,
+    "kVAR": 0.886
+  },
+  {
+    "_id": {
+      "$oid": "69bf7ccfa7422aa78ba01724"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:27.949Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d2da7422aa78ba01746"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:01.799Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.86,
+    "kVA": 1.738,
+    "kVAR": 0.886
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d58a7422aa78ba01756"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:44.494Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.8,
+    "kVA": 1.869,
+    "kVAR": 1.122
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d82a7422aa78ba01766"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:26.972Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.81,
+    "kVA": 1.136,
+    "kVAR": 0.666
+  },
+  {
+    "_id": {
+      "$oid": "69bf7dd6a7422aa78ba01784"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:50.292Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.87,
+    "kVA": 1.057,
+    "kVAR": 0.52
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e08a7422aa78ba01796"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:40.176Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.85,
+    "kVA": 1.082,
+    "kVAR": 0.569
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e18a7422aa78ba0179c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:56.389Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.8,
+    "kVA": 1.15,
+    "kVAR": 0.69
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e28a7422aa78ba017a2"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:12.354Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.034,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e3da7422aa78ba017aa"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:33.599Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e9ea7422aa78ba017ce"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:31:10.347Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf86a2e35139c15563fd0a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:22.271Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.81,
+    "kVA": 2.272,
+    "kVAR": 1.333
+  },
+  {
+    "_id": {
+      "$oid": "69bf86ade35139c15563fd0e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:33.078Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.86,
+    "kVA": 2.14,
+    "kVAR": 1.093
+  },
+  {
+    "_id": {
+      "$oid": "69bf86c2e35139c15563fd16"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:54.402Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.8,
+    "kVA": 2.3,
+    "kVAR": 1.38
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1e37339049dff4c1865"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:39.181Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.82,
+    "kVA": 1.823,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d0ba7422aa78ba0173a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:27.127Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d1ba7422aa78ba01740"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:43.478Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7dd0a7422aa78ba01782"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:44.845Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.8,
+    "kVA": 1.15,
+    "kVAR": 0.69
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e33a7422aa78ba017a6"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:23.003Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.81,
+    "kVA": 1.136,
+    "kVAR": 0.666
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e38a7422aa78ba017a8"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:28.389Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.034,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "69bf8646e35139c15563fce8"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:03:50.278Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf86bde35139c15563fd14"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:49.158Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.88,
+    "kVA": 2.091,
+    "kVAR": 0.993
+  },
+  {
+    "_id": {
+      "$oid": "69bf86e8e35139c15563fd24"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:06:32.524Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.81,
+    "kVA": 1.562,
+    "kVAR": 0.916
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1937339049dff4c1849"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:19.833Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa19e7339049dff4c184d"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:30.307Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1c57339049dff4c185b"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:09.314Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.86,
+    "kVA": 1.738,
+    "kVAR": 0.886
+  },
+  {
+    "_id": {
+      "$oid": "69bfa24d7339049dff4c188d"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:03:25.938Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.86,
+    "kVA": 2.14,
+    "kVAR": 1.093
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2587339049dff4c1891"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:03:36.180Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d21a7422aa78ba01742"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:49.022Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d53a7422aa78ba01754"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:25:39.192Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.86,
+    "kVA": 1.738,
+    "kVAR": 0.886
+  },
+  {
+    "_id": {
+      "$oid": "69bf7eb0a7422aa78ba017d4"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:31:28.426Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf8681e35139c15563fcfe"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:49.844Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf86dde35139c15563fd20"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:06:21.793Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.82,
+    "kVA": 1.543,
+    "kVAR": 0.884
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1997339049dff4c184b"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:00:25.309Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa20d7339049dff4c1875"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:21.996Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.84,
+    "kVA": 1.78,
+    "kVAR": 0.966
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2287339049dff4c187f"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:48.723Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.86,
+    "kVA": 2.14,
+    "kVAR": 1.093
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d8da7422aa78ba0176a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:37.876Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.034,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "69bf7db4a7422aa78ba01778"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:16.518Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.87,
+    "kVA": 1.057,
+    "kVAR": 0.52
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e93a7422aa78ba017ca"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:59.592Z"
+    },
+    "voltage": 230.0,
+    "current": 1.5,
+    "kW": 0.345,
+    "kWh": 0.00048,
+    "powerFactor": 0.86,
+    "kVA": 0.401,
+    "kVAR": 0.204
+  },
+  {
+    "_id": {
+      "$oid": "69bf8650e35139c15563fcec"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:00.918Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf8661e35139c15563fcf2"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:04:17.004Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf8697e35139c15563fd06"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:11.325Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.84,
+    "kVA": 1.506,
+    "kVAR": 0.817
+  },
+  {
+    "_id": {
+      "$oid": "69bf869ce35139c15563fd08"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:16.945Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.87,
+    "kVA": 1.454,
+    "kVAR": 0.717
+  },
+  {
+    "_id": {
+      "$oid": "69bfa22e7339049dff4c1881"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:54.234Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.8,
+    "kVA": 2.3,
+    "kVAR": 1.38
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2537339049dff4c188f"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:03:31.272Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.82,
+    "kVA": 2.244,
+    "kVAR": 1.284
+  },
+  {
+    "_id": {
+      "$oid": "69bf7cf0a7422aa78ba01730"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:24:00.570Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7da8a7422aa78ba01774"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:04.301Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.9,
+    "kVA": 1.022,
+    "kVAR": 0.445
+  },
+  {
+    "_id": {
+      "$oid": "69bf7ddba7422aa78ba01786"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:55.570Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.8,
+    "kVA": 1.15,
+    "kVAR": 0.69
+  },
+  {
+    "_id": {
+      "$oid": "69bf7df8a7422aa78ba01790"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:24.090Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.81,
+    "kVA": 1.136,
+    "kVAR": 0.666
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e2da7422aa78ba017a4"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:17.630Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e5da7422aa78ba017b6"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:05.860Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.82,
+    "kVA": 1.122,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e7ea7422aa78ba017c2"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:38.063Z"
+    },
+    "voltage": 230.0,
+    "current": 1.5,
+    "kW": 0.345,
+    "kWh": 0.00048,
+    "powerFactor": 0.85,
+    "kVA": 0.406,
+    "kVAR": 0.214
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e83a7422aa78ba017c4"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:30:43.530Z"
+    },
+    "voltage": 230.0,
+    "current": 1.5,
+    "kW": 0.345,
+    "kWh": 0.00048,
+    "powerFactor": 0.89,
+    "kVA": 0.388,
+    "kVAR": 0.178
+  },
+  {
+    "_id": {
+      "$oid": "69bf86e3e35139c15563fd22"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:06:27.110Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.86,
+    "kVA": 1.471,
+    "kVAR": 0.751
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1db7339049dff4c1863"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:01:31.903Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.82,
+    "kVA": 1.823,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d9da7422aa78ba01770"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:53.668Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf7dc1a7422aa78ba0177c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:29.008Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.83,
+    "kVA": 1.108,
+    "kVAR": 0.617
+  },
+  {
+    "_id": {
+      "$oid": "69bf7dc6a7422aa78ba0177e"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:34.448Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.82,
+    "kVA": 1.122,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "69bf7de6a7422aa78ba0178a"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:06.151Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.82,
+    "kVA": 1.122,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "69bf7dfda7422aa78ba01792"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:28:29.482Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.9,
+    "kVA": 1.022,
+    "kVAR": 0.445
+  },
+  {
+    "_id": {
+      "$oid": "69bf868ce35139c15563fd02"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:00.242Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.8,
+    "kVA": 1.581,
+    "kVAR": 0.948
+  },
+  {
+    "_id": {
+      "$oid": "69bf8691e35139c15563fd04"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:05.727Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.83,
+    "kVA": 1.524,
+    "kVAR": 0.85
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2037339049dff4c1871"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:11.363Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.85,
+    "kVA": 1.759,
+    "kVAR": 0.927
+  },
+  {
+    "_id": {
+      "$oid": "69bf7cdaa7422aa78ba01728"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:23:38.391Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf7d7da7422aa78ba01764"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:21.992Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e48a7422aa78ba017ae"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:44.326Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.87,
+    "kVA": 1.057,
+    "kVAR": 0.52
+  },
+  {
+    "_id": {
+      "$oid": "69bf8641e35139c15563fce6"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:03:45.184Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1f87339049dff4c186d"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:00.435Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.81,
+    "kVA": 1.846,
+    "kVAR": 1.083
+  },
+  {
+    "_id": {
+      "$oid": "69bfa1fd7339049dff4c186f"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:05.899Z"
+    },
+    "voltage": 230.0,
+    "current": 6.5,
+    "kW": 1.495,
+    "kWh": 0.00208,
+    "powerFactor": 0.89,
+    "kVA": 1.68,
+    "kVAR": 0.766
+  },
+  {
+    "_id": {
+      "$oid": "69bfa2237339049dff4c187d"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T08:02:43.355Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.87,
+    "kVA": 2.115,
+    "kVAR": 1.043
+  },
+  {
+    "_id": {
+      "$oid": "69bf7da3a7422aa78ba01772"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:26:59.022Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.85,
+    "kVA": 1.082,
+    "kVAR": 0.569
+  },
+  {
+    "_id": {
+      "$oid": "69bf7daea7422aa78ba01776"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:27:10.238Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.85,
+    "kVA": 1.082,
+    "kVAR": 0.569
+  },
+  {
+    "_id": {
+      "$oid": "69bf7e53a7422aa78ba017b2"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:29:55.130Z"
+    },
+    "voltage": 230.0,
+    "current": 4.0,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.9,
+    "kVA": 1.022,
+    "kVAR": 0.445
+  },
+  {
+    "_id": {
+      "$oid": "69bf7eaba7422aa78ba017d2"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T05:31:23.079Z"
+    },
+    "voltage": 230.0,
+    "current": 0.0,
+    "kW": 0.0,
+    "kWh": 0.0,
+    "powerFactor": 0,
+    "kVA": 0,
+    "kVAR": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bf86b2e35139c15563fd10"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:05:38.365Z"
+    },
+    "voltage": 230.0,
+    "current": 8.0,
+    "kW": 1.84,
+    "kWh": 0.00256,
+    "powerFactor": 0.83,
+    "kVA": 2.217,
+    "kVAR": 1.237
+  },
+  {
+    "_id": {
+      "$oid": "69bf86d2e35139c15563fd1c"
+    },
+    "timestamp": {
+      "$date": "2026-03-22T06:06:10.563Z"
+    },
+    "voltage": 230.0,
+    "current": 5.5,
+    "kW": 1.265,
+    "kWh": 0.00176,
+    "powerFactor": 0.82,
+    "kVA": 1.543,
+    "kVAR": 0.884
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc271a910c529e4426f9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:29:43.760Z"
+    },
+    "voltage": 230.0,
+    "current": 4.763,
+    "kW": 1.095,
+    "kWh": 0.00152,
+    "powerFactor": 0.85,
+    "kVA": 1.288,
+    "kVAR": 0.678
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc2e1a910c529e4426fb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:29:50.818Z"
+    },
+    "voltage": 230.0,
+    "current": 4.846,
+    "kW": 1.115,
+    "kWh": 0.00155,
+    "powerFactor": 0.89,
+    "kVA": 1.253,
+    "kVAR": 0.572
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc351a910c529e4426fd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:29:57.810Z"
+    },
+    "voltage": 230.0,
+    "current": 4.73,
+    "kW": 1.088,
+    "kWh": 0.00151,
+    "powerFactor": 0.81,
+    "kVA": 1.343,
+    "kVAR": 0.787
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc3d1a910c529e4426ff"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:05.186Z"
+    },
+    "voltage": 230.0,
+    "current": 4.738,
+    "kW": 1.09,
+    "kWh": 0.00151,
+    "powerFactor": 0.83,
+    "kVA": 1.313,
+    "kVAR": 0.732
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc431a910c529e442701"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:11.927Z"
+    },
+    "voltage": 230.0,
+    "current": 4.647,
+    "kW": 1.069,
+    "kWh": 0.00148,
+    "powerFactor": 0.9,
+    "kVA": 1.188,
+    "kVAR": 0.518
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc4a1a910c529e442703"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:18.955Z"
+    },
+    "voltage": 230.0,
+    "current": 4.737,
+    "kW": 1.09,
+    "kWh": 0.00151,
+    "powerFactor": 0.88,
+    "kVA": 1.239,
+    "kVAR": 0.589
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc511a910c529e442705"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:25.979Z"
+    },
+    "voltage": 230.0,
+    "current": 4.684,
+    "kW": 1.077,
+    "kWh": 0.0015,
+    "powerFactor": 0.83,
+    "kVA": 1.298,
+    "kVAR": 0.724
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc591a910c529e442707"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:33.027Z"
+    },
+    "voltage": 230.0,
+    "current": 4.634,
+    "kW": 1.066,
+    "kWh": 0.00148,
+    "powerFactor": 0.84,
+    "kVA": 1.269,
+    "kVAR": 0.688
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc601a910c529e442709"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:40.073Z"
+    },
+    "voltage": 230.0,
+    "current": 4.754,
+    "kW": 1.093,
+    "kWh": 0.00152,
+    "powerFactor": 0.8,
+    "kVA": 1.366,
+    "kVAR": 0.819
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc671a910c529e44270b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:47.099Z"
+    },
+    "voltage": 230.0,
+    "current": 4.72,
+    "kW": 1.086,
+    "kWh": 0.00151,
+    "powerFactor": 0.89,
+    "kVA": 1.22,
+    "kVAR": 0.556
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc6e1a910c529e44270d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:30:54.144Z"
+    },
+    "voltage": 230.0,
+    "current": 4.643,
+    "kW": 1.068,
+    "kWh": 0.00148,
+    "powerFactor": 0.89,
+    "kVA": 1.2,
+    "kVAR": 0.547
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc751a910c529e44270f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:01.241Z"
+    },
+    "voltage": 230.0,
+    "current": 4.516,
+    "kW": 1.039,
+    "kWh": 0.00144,
+    "powerFactor": 0.83,
+    "kVA": 1.252,
+    "kVAR": 0.699
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc7c1a910c529e442711"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:08.298Z"
+    },
+    "voltage": 230.0,
+    "current": 4.621,
+    "kW": 1.063,
+    "kWh": 0.00148,
+    "powerFactor": 0.84,
+    "kVA": 1.265,
+    "kVAR": 0.686
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc831a910c529e442713"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:15.345Z"
+    },
+    "voltage": 230.0,
+    "current": 4.697,
+    "kW": 1.08,
+    "kWh": 0.0015,
+    "powerFactor": 0.85,
+    "kVA": 1.271,
+    "kVAR": 0.67
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc8a1a910c529e442715"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:22.382Z"
+    },
+    "voltage": 230.0,
+    "current": 4.78,
+    "kW": 1.099,
+    "kWh": 0.00153,
+    "powerFactor": 0.81,
+    "kVA": 1.357,
+    "kVAR": 0.796
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc911a910c529e442717"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:29.484Z"
+    },
+    "voltage": 230.0,
+    "current": 4.808,
+    "kW": 1.106,
+    "kWh": 0.00154,
+    "powerFactor": 0.9,
+    "kVA": 1.229,
+    "kVAR": 0.536
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc981a910c529e442719"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:36.552Z"
+    },
+    "voltage": 230.0,
+    "current": 4.604,
+    "kW": 1.059,
+    "kWh": 0.00147,
+    "powerFactor": 0.81,
+    "kVA": 1.307,
+    "kVAR": 0.766
+  },
+  {
+    "_id": {
+      "$oid": "6a7efc9f1a910c529e44271b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:43.574Z"
+    },
+    "voltage": 230.0,
+    "current": 4.693,
+    "kW": 1.079,
+    "kWh": 0.0015,
+    "powerFactor": 0.84,
+    "kVA": 1.285,
+    "kVAR": 0.698
+  },
+  {
+    "_id": {
+      "$oid": "6a7efca61a910c529e44271d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:50.660Z"
+    },
+    "voltage": 230.0,
+    "current": 4.663,
+    "kW": 1.072,
+    "kWh": 0.00149,
+    "powerFactor": 0.83,
+    "kVA": 1.292,
+    "kVAR": 0.721
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcad1a910c529e44271f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:31:57.741Z"
+    },
+    "voltage": 230.0,
+    "current": 4.663,
+    "kW": 1.072,
+    "kWh": 0.00149,
+    "powerFactor": 0.82,
+    "kVA": 1.307,
+    "kVAR": 0.748
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcb41a910c529e442721"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:04.784Z"
+    },
+    "voltage": 230.0,
+    "current": 4.655,
+    "kW": 1.071,
+    "kWh": 0.00149,
+    "powerFactor": 0.9,
+    "kVA": 1.19,
+    "kVAR": 0.519
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcbb1a910c529e442723"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:11.827Z"
+    },
+    "voltage": 230.0,
+    "current": 4.74,
+    "kW": 1.09,
+    "kWh": 0.00151,
+    "powerFactor": 0.81,
+    "kVA": 1.346,
+    "kVAR": 0.79
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcc21a910c529e442725"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:18.847Z"
+    },
+    "voltage": 230.0,
+    "current": 4.759,
+    "kW": 1.095,
+    "kWh": 0.00152,
+    "powerFactor": 0.84,
+    "kVA": 1.304,
+    "kVAR": 0.708
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcc91a910c529e442727"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:25.892Z"
+    },
+    "voltage": 230.0,
+    "current": 4.736,
+    "kW": 1.089,
+    "kWh": 0.00151,
+    "powerFactor": 0.85,
+    "kVA": 1.281,
+    "kVAR": 0.675
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcd11a910c529e442729"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:33.155Z"
+    },
+    "voltage": 230.0,
+    "current": 4.784,
+    "kW": 1.1,
+    "kWh": 0.00153,
+    "powerFactor": 0.8,
+    "kVA": 1.375,
+    "kVAR": 0.825
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcd81a910c529e44272b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:40.191Z"
+    },
+    "voltage": 230.0,
+    "current": 4.594,
+    "kW": 1.057,
+    "kWh": 0.00147,
+    "powerFactor": 0.8,
+    "kVA": 1.321,
+    "kVAR": 0.792
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcdf1a910c529e44272d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:47.322Z"
+    },
+    "voltage": 230.0,
+    "current": 4.616,
+    "kW": 1.062,
+    "kWh": 0.00148,
+    "powerFactor": 0.83,
+    "kVA": 1.28,
+    "kVAR": 0.715
+  },
+  {
+    "_id": {
+      "$oid": "6a7efce61a910c529e44272f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:32:54.343Z"
+    },
+    "voltage": 230.0,
+    "current": 4.761,
+    "kW": 1.095,
+    "kWh": 0.00152,
+    "powerFactor": 0.82,
+    "kVA": 1.335,
+    "kVAR": 0.764
+  },
+  {
+    "_id": {
+      "$oid": "6a7efced1a910c529e442731"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:01.464Z"
+    },
+    "voltage": 230.0,
+    "current": 4.519,
+    "kW": 1.039,
+    "kWh": 0.00144,
+    "powerFactor": 0.83,
+    "kVA": 1.252,
+    "kVAR": 0.699
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcf41a910c529e442733"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:08.428Z"
+    },
+    "voltage": 230.0,
+    "current": 4.585,
+    "kW": 1.055,
+    "kWh": 0.00147,
+    "powerFactor": 0.87,
+    "kVA": 1.213,
+    "kVAR": 0.599
+  },
+  {
+    "_id": {
+      "$oid": "6a7efcfb1a910c529e442735"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:15.476Z"
+    },
+    "voltage": 230.0,
+    "current": 4.781,
+    "kW": 1.1,
+    "kWh": 0.00153,
+    "powerFactor": 0.9,
+    "kVA": 1.222,
+    "kVAR": 0.532
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd021a910c529e442737"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:22.566Z"
+    },
+    "voltage": 230.0,
+    "current": 4.707,
+    "kW": 1.083,
+    "kWh": 0.0015,
+    "powerFactor": 0.81,
+    "kVA": 1.337,
+    "kVAR": 0.784
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd091a910c529e442739"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:29.612Z"
+    },
+    "voltage": 230.0,
+    "current": 4.714,
+    "kW": 1.084,
+    "kWh": 0.00151,
+    "powerFactor": 0.82,
+    "kVA": 1.322,
+    "kVAR": 0.757
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd101a910c529e44273b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:36.858Z"
+    },
+    "voltage": 230.0,
+    "current": 4.511,
+    "kW": 1.038,
+    "kWh": 0.00144,
+    "powerFactor": 0.86,
+    "kVA": 1.207,
+    "kVAR": 0.616
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd181a910c529e44273d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:44.483Z"
+    },
+    "voltage": 230.0,
+    "current": 4.591,
+    "kW": 1.056,
+    "kWh": 0.00147,
+    "powerFactor": 0.85,
+    "kVA": 1.242,
+    "kVAR": 0.654
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd1f1a910c529e44273f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:51.485Z"
+    },
+    "voltage": 230.0,
+    "current": 4.631,
+    "kW": 1.065,
+    "kWh": 0.00148,
+    "powerFactor": 0.86,
+    "kVA": 1.238,
+    "kVAR": 0.631
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd261a910c529e442741"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:33:58.679Z"
+    },
+    "voltage": 230.0,
+    "current": 4.738,
+    "kW": 1.09,
+    "kWh": 0.00151,
+    "powerFactor": 0.85,
+    "kVA": 1.282,
+    "kVAR": 0.675
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd2d1a910c529e442743"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:05.905Z"
+    },
+    "voltage": 230.0,
+    "current": 4.655,
+    "kW": 1.071,
+    "kWh": 0.00149,
+    "powerFactor": 0.85,
+    "kVA": 1.26,
+    "kVAR": 0.664
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd341a910c529e442745"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:12.909Z"
+    },
+    "voltage": 230.0,
+    "current": 4.7,
+    "kW": 1.081,
+    "kWh": 0.0015,
+    "powerFactor": 0.8,
+    "kVA": 1.351,
+    "kVAR": 0.81
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd3c1a910c529e442747"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:20.051Z"
+    },
+    "voltage": 230.0,
+    "current": 4.686,
+    "kW": 1.078,
+    "kWh": 0.0015,
+    "powerFactor": 0.86,
+    "kVA": 1.253,
+    "kVAR": 0.639
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd431a910c529e442749"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:27.406Z"
+    },
+    "voltage": 230.0,
+    "current": 4.79,
+    "kW": 1.102,
+    "kWh": 0.00153,
+    "powerFactor": 0.89,
+    "kVA": 1.238,
+    "kVAR": 0.564
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd4a1a910c529e44274b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:34.344Z"
+    },
+    "voltage": 230.0,
+    "current": 4.708,
+    "kW": 1.083,
+    "kWh": 0.0015,
+    "powerFactor": 0.87,
+    "kVA": 1.245,
+    "kVAR": 0.614
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd511a910c529e44274d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:41.352Z"
+    },
+    "voltage": 230.0,
+    "current": 4.665,
+    "kW": 1.073,
+    "kWh": 0.00149,
+    "powerFactor": 0.81,
+    "kVA": 1.325,
+    "kVAR": 0.777
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd581a910c529e44274f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:48.406Z"
+    },
+    "voltage": 230.0,
+    "current": 4.535,
+    "kW": 1.043,
+    "kWh": 0.00145,
+    "powerFactor": 0.8,
+    "kVA": 1.304,
+    "kVAR": 0.783
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd5f1a910c529e442751"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:34:55.490Z"
+    },
+    "voltage": 230.0,
+    "current": 4.631,
+    "kW": 1.065,
+    "kWh": 0.00148,
+    "powerFactor": 0.83,
+    "kVA": 1.283,
+    "kVAR": 0.715
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd671a910c529e442753"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:03.455Z"
+    },
+    "voltage": 230.0,
+    "current": 4.667,
+    "kW": 1.073,
+    "kWh": 0.00149,
+    "powerFactor": 0.87,
+    "kVA": 1.233,
+    "kVAR": 0.607
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd6d1a910c529e442755"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:09.630Z"
+    },
+    "voltage": 230.0,
+    "current": 4.65,
+    "kW": 1.069,
+    "kWh": 0.00148,
+    "powerFactor": 0.81,
+    "kVA": 1.32,
+    "kVAR": 0.774
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd741a910c529e442757"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:16.664Z"
+    },
+    "voltage": 230.0,
+    "current": 4.659,
+    "kW": 1.072,
+    "kWh": 0.00149,
+    "powerFactor": 0.83,
+    "kVA": 1.292,
+    "kVAR": 0.721
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd7b1a910c529e442759"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:23.702Z"
+    },
+    "voltage": 230.0,
+    "current": 4.526,
+    "kW": 1.041,
+    "kWh": 0.00145,
+    "powerFactor": 0.87,
+    "kVA": 1.197,
+    "kVAR": 0.591
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd821a910c529e44275b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:30.749Z"
+    },
+    "voltage": 230.0,
+    "current": 4.61,
+    "kW": 1.06,
+    "kWh": 0.00147,
+    "powerFactor": 0.81,
+    "kVA": 1.309,
+    "kVAR": 0.768
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd891a910c529e44275d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:37.813Z"
+    },
+    "voltage": 230.0,
+    "current": 4.664,
+    "kW": 1.073,
+    "kWh": 0.00149,
+    "powerFactor": 0.84,
+    "kVA": 1.277,
+    "kVAR": 0.692
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd901a910c529e44275f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:44.839Z"
+    },
+    "voltage": 230.0,
+    "current": 4.688,
+    "kW": 1.078,
+    "kWh": 0.0015,
+    "powerFactor": 0.81,
+    "kVA": 1.331,
+    "kVAR": 0.781
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd981a910c529e442761"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:52.072Z"
+    },
+    "voltage": 230.0,
+    "current": 4.718,
+    "kW": 1.085,
+    "kWh": 0.00151,
+    "powerFactor": 0.87,
+    "kVA": 1.247,
+    "kVAR": 0.615
+  },
+  {
+    "_id": {
+      "$oid": "6a7efd9f1a910c529e442763"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:35:59.062Z"
+    },
+    "voltage": 230.0,
+    "current": 4.695,
+    "kW": 1.08,
+    "kWh": 0.0015,
+    "powerFactor": 0.84,
+    "kVA": 1.286,
+    "kVAR": 0.698
+  },
+  {
+    "_id": {
+      "$oid": "6a7efda61a910c529e442765"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:06.142Z"
+    },
+    "voltage": 230.0,
+    "current": 4.649,
+    "kW": 1.069,
+    "kWh": 0.00148,
+    "powerFactor": 0.84,
+    "kVA": 1.273,
+    "kVAR": 0.691
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdad1a910c529e442767"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:13.164Z"
+    },
+    "voltage": 230.0,
+    "current": 4.619,
+    "kW": 1.062,
+    "kWh": 0.00148,
+    "powerFactor": 0.8,
+    "kVA": 1.327,
+    "kVAR": 0.796
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdb41a910c529e442769"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:20.198Z"
+    },
+    "voltage": 230.0,
+    "current": 4.555,
+    "kW": 1.048,
+    "kWh": 0.00146,
+    "powerFactor": 0.8,
+    "kVA": 1.31,
+    "kVAR": 0.786
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdbb1a910c529e44276b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:27.244Z"
+    },
+    "voltage": 230.0,
+    "current": 4.556,
+    "kW": 1.048,
+    "kWh": 0.00146,
+    "powerFactor": 0.86,
+    "kVA": 1.219,
+    "kVAR": 0.623
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdc21a910c529e44276d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:34.334Z"
+    },
+    "voltage": 230.0,
+    "current": 4.713,
+    "kW": 1.084,
+    "kWh": 0.00151,
+    "powerFactor": 0.9,
+    "kVA": 1.204,
+    "kVAR": 0.524
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdc91a910c529e44276f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:41.362Z"
+    },
+    "voltage": 230.0,
+    "current": 4.682,
+    "kW": 1.077,
+    "kWh": 0.0015,
+    "powerFactor": 0.89,
+    "kVA": 1.21,
+    "kVAR": 0.552
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdd01a910c529e442771"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:48.404Z"
+    },
+    "voltage": 230.0,
+    "current": 4.627,
+    "kW": 1.064,
+    "kWh": 0.00148,
+    "powerFactor": 0.9,
+    "kVA": 1.182,
+    "kVAR": 0.515
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdd71a910c529e442773"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:36:55.479Z"
+    },
+    "voltage": 230.0,
+    "current": 4.604,
+    "kW": 1.059,
+    "kWh": 0.00147,
+    "powerFactor": 0.82,
+    "kVA": 1.291,
+    "kVAR": 0.738
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdde1a910c529e442775"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:02.539Z"
+    },
+    "voltage": 230.0,
+    "current": 4.568,
+    "kW": 1.051,
+    "kWh": 0.00146,
+    "powerFactor": 0.82,
+    "kVA": 1.282,
+    "kVAR": 0.734
+  },
+  {
+    "_id": {
+      "$oid": "6a7efde51a910c529e442777"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:09.552Z"
+    },
+    "voltage": 230.0,
+    "current": 4.529,
+    "kW": 1.042,
+    "kWh": 0.00145,
+    "powerFactor": 0.87,
+    "kVA": 1.198,
+    "kVAR": 0.591
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdec1a910c529e442779"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:16.599Z"
+    },
+    "voltage": 230.0,
+    "current": 0.687,
+    "kW": 0.158,
+    "kWh": 0.00022,
+    "powerFactor": 0.89,
+    "kVA": 0.178,
+    "kVAR": 0.082
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdf31a910c529e44277b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:23.696Z"
+    },
+    "voltage": 230.0,
+    "current": 0.697,
+    "kW": 0.16,
+    "kWh": 0.00022,
+    "powerFactor": 0.81,
+    "kVA": 0.198,
+    "kVAR": 0.117
+  },
+  {
+    "_id": {
+      "$oid": "6a7efdfa1a910c529e44277d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:30.729Z"
+    },
+    "voltage": 230.0,
+    "current": 0.707,
+    "kW": 0.163,
+    "kWh": 0.00023,
+    "powerFactor": 0.83,
+    "kVA": 0.196,
+    "kVAR": 0.109
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe011a910c529e44277f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:37.768Z"
+    },
+    "voltage": 230.0,
+    "current": 0.704,
+    "kW": 0.162,
+    "kWh": 0.00023,
+    "powerFactor": 0.81,
+    "kVA": 0.2,
+    "kVAR": 0.117
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe081a910c529e442781"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:44.968Z"
+    },
+    "voltage": 230.0,
+    "current": 0.712,
+    "kW": 0.164,
+    "kWh": 0.00023,
+    "powerFactor": 0.8,
+    "kVA": 0.205,
+    "kVAR": 0.123
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe0f1a910c529e442783"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:51.982Z"
+    },
+    "voltage": 230.0,
+    "current": 0.69,
+    "kW": 0.159,
+    "kWh": 0.00022,
+    "powerFactor": 0.87,
+    "kVA": 0.183,
+    "kVAR": 0.091
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe171a910c529e442785"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:37:59.114Z"
+    },
+    "voltage": 230.0,
+    "current": 0.675,
+    "kW": 0.155,
+    "kWh": 0.00022,
+    "powerFactor": 0.84,
+    "kVA": 0.185,
+    "kVAR": 0.101
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe1e1a910c529e442787"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:06.142Z"
+    },
+    "voltage": 230.0,
+    "current": 0.66,
+    "kW": 0.152,
+    "kWh": 0.00021,
+    "powerFactor": 0.85,
+    "kVA": 0.179,
+    "kVAR": 0.095
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe251a910c529e442789"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:13.193Z"
+    },
+    "voltage": 230.0,
+    "current": 0.696,
+    "kW": 0.16,
+    "kWh": 0.00022,
+    "powerFactor": 0.84,
+    "kVA": 0.19,
+    "kVAR": 0.102
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe2c1a910c529e44278b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:20.246Z"
+    },
+    "voltage": 230.0,
+    "current": 0.669,
+    "kW": 0.154,
+    "kWh": 0.00021,
+    "powerFactor": 0.88,
+    "kVA": 0.175,
+    "kVAR": 0.083
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe331a910c529e44278d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:27.307Z"
+    },
+    "voltage": 230.0,
+    "current": 0.683,
+    "kW": 0.157,
+    "kWh": 0.00022,
+    "powerFactor": 0.89,
+    "kVA": 0.176,
+    "kVAR": 0.08
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe3a1a910c529e44278f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:34.354Z"
+    },
+    "voltage": 230.0,
+    "current": 0.705,
+    "kW": 0.162,
+    "kWh": 0.00023,
+    "powerFactor": 0.87,
+    "kVA": 0.186,
+    "kVAR": 0.091
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe411a910c529e442791"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:41.399Z"
+    },
+    "voltage": 230.0,
+    "current": 0.66,
+    "kW": 0.152,
+    "kWh": 0.00021,
+    "powerFactor": 0.85,
+    "kVA": 0.179,
+    "kVAR": 0.095
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe481a910c529e442793"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:48.422Z"
+    },
+    "voltage": 230.0,
+    "current": 0.686,
+    "kW": 0.158,
+    "kWh": 0.00022,
+    "powerFactor": 0.89,
+    "kVA": 0.178,
+    "kVAR": 0.082
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe4f1a910c529e442795"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:38:55.466Z"
+    },
+    "voltage": 230.0,
+    "current": 0.692,
+    "kW": 0.159,
+    "kWh": 0.00022,
+    "powerFactor": 0.86,
+    "kVA": 0.185,
+    "kVAR": 0.095
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe561a910c529e442797"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:02.481Z"
+    },
+    "voltage": 230.0,
+    "current": 0.668,
+    "kW": 0.154,
+    "kWh": 0.00021,
+    "powerFactor": 0.8,
+    "kVA": 0.192,
+    "kVAR": 0.115
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe5d1a910c529e442799"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:09.652Z"
+    },
+    "voltage": 230.0,
+    "current": 0.679,
+    "kW": 0.156,
+    "kWh": 0.00022,
+    "powerFactor": 0.83,
+    "kVA": 0.188,
+    "kVAR": 0.105
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe651a910c529e44279b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:17.383Z"
+    },
+    "voltage": 230.0,
+    "current": 0.672,
+    "kW": 0.155,
+    "kWh": 0.00022,
+    "powerFactor": 0.86,
+    "kVA": 0.18,
+    "kVAR": 0.092
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe6d1a910c529e44279d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:25.414Z"
+    },
+    "voltage": 230.0,
+    "current": 0.669,
+    "kW": 0.154,
+    "kWh": 0.00021,
+    "powerFactor": 0.84,
+    "kVA": 0.183,
+    "kVAR": 0.099
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe741a910c529e44279f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:32.530Z"
+    },
+    "voltage": 230.0,
+    "current": 0.7,
+    "kW": 0.161,
+    "kWh": 0.00022,
+    "powerFactor": 0.87,
+    "kVA": 0.185,
+    "kVAR": 0.091
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe7b1a910c529e4427a1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:39.715Z"
+    },
+    "voltage": 230.0,
+    "current": 0.695,
+    "kW": 0.16,
+    "kWh": 0.00022,
+    "powerFactor": 0.9,
+    "kVA": 0.178,
+    "kVAR": 0.078
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe831a910c529e4427a3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:47.457Z"
+    },
+    "voltage": 230.0,
+    "current": 0.701,
+    "kW": 0.161,
+    "kWh": 0.00022,
+    "powerFactor": 0.85,
+    "kVA": 0.189,
+    "kVAR": 0.099
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe8a1a910c529e4427a5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:39:54.834Z"
+    },
+    "voltage": 230.0,
+    "current": 0.681,
+    "kW": 0.157,
+    "kWh": 0.00022,
+    "powerFactor": 0.9,
+    "kVA": 0.174,
+    "kVAR": 0.075
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe911a910c529e4427a7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:01.861Z"
+    },
+    "voltage": 230.0,
+    "current": 0.692,
+    "kW": 0.159,
+    "kWh": 0.00022,
+    "powerFactor": 0.82,
+    "kVA": 0.194,
+    "kVAR": 0.111
+  },
+  {
+    "_id": {
+      "$oid": "6a7efe981a910c529e4427a9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:08.939Z"
+    },
+    "voltage": 230.0,
+    "current": 0.682,
+    "kW": 0.157,
+    "kWh": 0.00022,
+    "powerFactor": 0.81,
+    "kVA": 0.194,
+    "kVAR": 0.114
+  },
+  {
+    "_id": {
+      "$oid": "6a7efea01a910c529e4427ab"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:16.017Z"
+    },
+    "voltage": 230.0,
+    "current": 4.623,
+    "kW": 1.063,
+    "kWh": 0.00148,
+    "powerFactor": 0.81,
+    "kVA": 1.312,
+    "kVAR": 0.769
+  },
+  {
+    "_id": {
+      "$oid": "6a7efea71a910c529e4427ad"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:23.047Z"
+    },
+    "voltage": 230.0,
+    "current": 4.513,
+    "kW": 1.038,
+    "kWh": 0.00144,
+    "powerFactor": 0.85,
+    "kVA": 1.221,
+    "kVAR": 0.643
+  },
+  {
+    "_id": {
+      "$oid": "6a7efeae1a910c529e4427af"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:30.084Z"
+    },
+    "voltage": 230.0,
+    "current": 4.684,
+    "kW": 1.077,
+    "kWh": 0.0015,
+    "powerFactor": 0.88,
+    "kVA": 1.224,
+    "kVAR": 0.582
+  },
+  {
+    "_id": {
+      "$oid": "6a7efeb51a910c529e4427b1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:37.145Z"
+    },
+    "voltage": 230.0,
+    "current": 4.477,
+    "kW": 1.03,
+    "kWh": 0.00143,
+    "powerFactor": 0.81,
+    "kVA": 1.272,
+    "kVAR": 0.746
+  },
+  {
+    "_id": {
+      "$oid": "6a7efebc1a910c529e4427b3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:44.192Z"
+    },
+    "voltage": 230.0,
+    "current": 4.487,
+    "kW": 1.032,
+    "kWh": 0.00143,
+    "powerFactor": 0.9,
+    "kVA": 1.147,
+    "kVAR": 0.501
+  },
+  {
+    "_id": {
+      "$oid": "6a7efec31a910c529e4427b5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:51.276Z"
+    },
+    "voltage": 230.0,
+    "current": 4.577,
+    "kW": 1.053,
+    "kWh": 0.00146,
+    "powerFactor": 0.88,
+    "kVA": 1.197,
+    "kVAR": 0.569
+  },
+  {
+    "_id": {
+      "$oid": "6a7efeca1a910c529e4427b7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:40:58.532Z"
+    },
+    "voltage": 230.0,
+    "current": 4.578,
+    "kW": 1.053,
+    "kWh": 0.00146,
+    "powerFactor": 0.8,
+    "kVA": 1.316,
+    "kVAR": 0.789
+  },
+  {
+    "_id": {
+      "$oid": "6a7efed11a910c529e4427b9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:05.638Z"
+    },
+    "voltage": 230.0,
+    "current": 4.704,
+    "kW": 1.082,
+    "kWh": 0.0015,
+    "powerFactor": 0.86,
+    "kVA": 1.258,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "6a7efed81a910c529e4427bb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:12.575Z"
+    },
+    "voltage": 230.0,
+    "current": 4.468,
+    "kW": 1.028,
+    "kWh": 0.00143,
+    "powerFactor": 0.85,
+    "kVA": 1.209,
+    "kVAR": 0.636
+  },
+  {
+    "_id": {
+      "$oid": "6a7efedf1a910c529e4427bd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:19.612Z"
+    },
+    "voltage": 230.0,
+    "current": 4.669,
+    "kW": 1.074,
+    "kWh": 0.00149,
+    "powerFactor": 0.85,
+    "kVA": 1.264,
+    "kVAR": 0.666
+  },
+  {
+    "_id": {
+      "$oid": "6a7efee71a910c529e4427bf"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:27.060Z"
+    },
+    "voltage": 230.0,
+    "current": 4.655,
+    "kW": 1.071,
+    "kWh": 0.00149,
+    "powerFactor": 0.88,
+    "kVA": 1.217,
+    "kVAR": 0.578
+  },
+  {
+    "_id": {
+      "$oid": "6a7efeee1a910c529e4427c1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:34.087Z"
+    },
+    "voltage": 230.0,
+    "current": 4.537,
+    "kW": 1.044,
+    "kWh": 0.00145,
+    "powerFactor": 0.87,
+    "kVA": 1.2,
+    "kVAR": 0.592
+  },
+  {
+    "_id": {
+      "$oid": "6a7efef51a910c529e4427c3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:41.151Z"
+    },
+    "voltage": 230.0,
+    "current": 4.518,
+    "kW": 1.039,
+    "kWh": 0.00144,
+    "powerFactor": 0.86,
+    "kVA": 1.208,
+    "kVAR": 0.616
+  },
+  {
+    "_id": {
+      "$oid": "6a7efefc1a910c529e4427c5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:48.304Z"
+    },
+    "voltage": 230.0,
+    "current": 4.364,
+    "kW": 1.004,
+    "kWh": 0.00139,
+    "powerFactor": 0.82,
+    "kVA": 1.224,
+    "kVAR": 0.7
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff031a910c529e4427c7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:41:55.299Z"
+    },
+    "voltage": 230.0,
+    "current": 4.452,
+    "kW": 1.024,
+    "kWh": 0.00142,
+    "powerFactor": 0.85,
+    "kVA": 1.205,
+    "kVAR": 0.635
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff0c1a910c529e4427c9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:04.014Z"
+    },
+    "voltage": 230.0,
+    "current": 4.359,
+    "kW": 1.003,
+    "kWh": 0.00139,
+    "powerFactor": 0.83,
+    "kVA": 1.208,
+    "kVAR": 0.673
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff111a910c529e4427cb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:09.389Z"
+    },
+    "voltage": 230.0,
+    "current": 4.535,
+    "kW": 1.043,
+    "kWh": 0.00145,
+    "powerFactor": 0.85,
+    "kVA": 1.227,
+    "kVAR": 0.646
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff181a910c529e4427cd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:16.446Z"
+    },
+    "voltage": 230.0,
+    "current": 4.559,
+    "kW": 1.049,
+    "kWh": 0.00146,
+    "powerFactor": 0.87,
+    "kVA": 1.206,
+    "kVAR": 0.595
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff1f1a910c529e4427cf"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:23.479Z"
+    },
+    "voltage": 230.0,
+    "current": 4.515,
+    "kW": 1.038,
+    "kWh": 0.00144,
+    "powerFactor": 0.87,
+    "kVA": 1.193,
+    "kVAR": 0.588
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff261a910c529e4427d1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:30.539Z"
+    },
+    "voltage": 230.0,
+    "current": 4.565,
+    "kW": 1.05,
+    "kWh": 0.00146,
+    "powerFactor": 0.83,
+    "kVA": 1.265,
+    "kVAR": 0.705
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff2d1a910c529e4427d3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:37.601Z"
+    },
+    "voltage": 230.0,
+    "current": 4.558,
+    "kW": 1.048,
+    "kWh": 0.00146,
+    "powerFactor": 0.82,
+    "kVA": 1.278,
+    "kVAR": 0.731
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff341a910c529e4427d5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:44.644Z"
+    },
+    "voltage": 230.0,
+    "current": 4.704,
+    "kW": 1.082,
+    "kWh": 0.0015,
+    "powerFactor": 0.81,
+    "kVA": 1.336,
+    "kVAR": 0.784
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff3b1a910c529e4427d7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:51.661Z"
+    },
+    "voltage": 230.0,
+    "current": 4.608,
+    "kW": 1.06,
+    "kWh": 0.00147,
+    "powerFactor": 0.82,
+    "kVA": 1.293,
+    "kVAR": 0.74
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff421a910c529e4427d9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:42:58.758Z"
+    },
+    "voltage": 230.0,
+    "current": 4.469,
+    "kW": 1.028,
+    "kWh": 0.00143,
+    "powerFactor": 0.81,
+    "kVA": 1.269,
+    "kVAR": 0.744
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff491a910c529e4427db"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:05.750Z"
+    },
+    "voltage": 230.0,
+    "current": 4.466,
+    "kW": 1.027,
+    "kWh": 0.00143,
+    "powerFactor": 0.84,
+    "kVA": 1.223,
+    "kVAR": 0.664
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff501a910c529e4427dd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:12.821Z"
+    },
+    "voltage": 230.0,
+    "current": 4.561,
+    "kW": 1.049,
+    "kWh": 0.00146,
+    "powerFactor": 0.86,
+    "kVA": 1.22,
+    "kVAR": 0.623
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff571a910c529e4427df"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:19.861Z"
+    },
+    "voltage": 230.0,
+    "current": 4.486,
+    "kW": 1.032,
+    "kWh": 0.00143,
+    "powerFactor": 0.88,
+    "kVA": 1.173,
+    "kVAR": 0.558
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff5e1a910c529e4427e1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:26.907Z"
+    },
+    "voltage": 230.0,
+    "current": 4.467,
+    "kW": 1.027,
+    "kWh": 0.00143,
+    "powerFactor": 0.8,
+    "kVA": 1.284,
+    "kVAR": 0.771
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff651a910c529e4427e3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:33.977Z"
+    },
+    "voltage": 230.0,
+    "current": 4.573,
+    "kW": 1.052,
+    "kWh": 0.00146,
+    "powerFactor": 0.85,
+    "kVA": 1.238,
+    "kVAR": 0.653
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff6d1a910c529e4427e5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:41.046Z"
+    },
+    "voltage": 230.0,
+    "current": 4.532,
+    "kW": 1.042,
+    "kWh": 0.00145,
+    "powerFactor": 0.9,
+    "kVA": 1.158,
+    "kVAR": 0.505
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff741a910c529e4427e7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:48.088Z"
+    },
+    "voltage": 230.0,
+    "current": 4.617,
+    "kW": 1.062,
+    "kWh": 0.00148,
+    "powerFactor": 0.81,
+    "kVA": 1.311,
+    "kVAR": 0.769
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff7b1a910c529e4427e9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:43:55.102Z"
+    },
+    "voltage": 230.0,
+    "current": 4.491,
+    "kW": 1.033,
+    "kWh": 0.00143,
+    "powerFactor": 0.88,
+    "kVA": 1.174,
+    "kVAR": 0.558
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff821a910c529e4427eb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:02.122Z"
+    },
+    "voltage": 230.0,
+    "current": 4.471,
+    "kW": 1.028,
+    "kWh": 0.00143,
+    "powerFactor": 0.89,
+    "kVA": 1.155,
+    "kVAR": 0.527
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff891a910c529e4427ed"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:09.160Z"
+    },
+    "voltage": 230.0,
+    "current": 4.435,
+    "kW": 1.02,
+    "kWh": 0.00142,
+    "powerFactor": 0.8,
+    "kVA": 1.275,
+    "kVAR": 0.765
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff901a910c529e4427ef"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:16.183Z"
+    },
+    "voltage": 230.0,
+    "current": 4.502,
+    "kW": 1.035,
+    "kWh": 0.00144,
+    "powerFactor": 0.87,
+    "kVA": 1.19,
+    "kVAR": 0.587
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff971a910c529e4427f1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:23.305Z"
+    },
+    "voltage": 230.0,
+    "current": 4.499,
+    "kW": 1.035,
+    "kWh": 0.00144,
+    "powerFactor": 0.83,
+    "kVA": 1.247,
+    "kVAR": 0.696
+  },
+  {
+    "_id": {
+      "$oid": "6a7eff9e1a910c529e4427f3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:30.260Z"
+    },
+    "voltage": 230.0,
+    "current": 4.667,
+    "kW": 1.073,
+    "kWh": 0.00149,
+    "powerFactor": 0.85,
+    "kVA": 1.262,
+    "kVAR": 0.664
+  },
+  {
+    "_id": {
+      "$oid": "6a7effa51a910c529e4427f5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:37.299Z"
+    },
+    "voltage": 230.0,
+    "current": 4.481,
+    "kW": 1.031,
+    "kWh": 0.00143,
+    "powerFactor": 0.88,
+    "kVA": 1.172,
+    "kVAR": 0.557
+  },
+  {
+    "_id": {
+      "$oid": "6a7effac1a910c529e4427f7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:44.370Z"
+    },
+    "voltage": 230.0,
+    "current": 4.507,
+    "kW": 1.037,
+    "kWh": 0.00144,
+    "powerFactor": 0.82,
+    "kVA": 1.265,
+    "kVAR": 0.724
+  },
+  {
+    "_id": {
+      "$oid": "6a7effb31a910c529e4427f9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:51.406Z"
+    },
+    "voltage": 230.0,
+    "current": 4.579,
+    "kW": 1.053,
+    "kWh": 0.00146,
+    "powerFactor": 0.83,
+    "kVA": 1.269,
+    "kVAR": 0.708
+  },
+  {
+    "_id": {
+      "$oid": "6a7effba1a910c529e4427fb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:44:58.429Z"
+    },
+    "voltage": 230.0,
+    "current": 4.439,
+    "kW": 1.021,
+    "kWh": 0.00142,
+    "powerFactor": 0.87,
+    "kVA": 1.174,
+    "kVAR": 0.58
+  },
+  {
+    "_id": {
+      "$oid": "6a7effc11a910c529e4427fd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:05.482Z"
+    },
+    "voltage": 230.0,
+    "current": 4.487,
+    "kW": 1.032,
+    "kWh": 0.00143,
+    "powerFactor": 0.86,
+    "kVA": 1.2,
+    "kVAR": 0.612
+  },
+  {
+    "_id": {
+      "$oid": "6a7effc81a910c529e4427ff"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:12.506Z"
+    },
+    "voltage": 230.0,
+    "current": 4.624,
+    "kW": 1.064,
+    "kWh": 0.00148,
+    "powerFactor": 0.82,
+    "kVA": 1.298,
+    "kVAR": 0.743
+  },
+  {
+    "_id": {
+      "$oid": "6a7effcf1a910c529e442801"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:19.548Z"
+    },
+    "voltage": 230.0,
+    "current": 4.382,
+    "kW": 1.008,
+    "kWh": 0.0014,
+    "powerFactor": 0.84,
+    "kVA": 1.2,
+    "kVAR": 0.651
+  },
+  {
+    "_id": {
+      "$oid": "6a7effd61a910c529e442803"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:26.589Z"
+    },
+    "voltage": 230.0,
+    "current": 4.529,
+    "kW": 1.042,
+    "kWh": 0.00145,
+    "powerFactor": 0.81,
+    "kVA": 1.286,
+    "kVAR": 0.754
+  },
+  {
+    "_id": {
+      "$oid": "6a7effdd1a910c529e442805"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:33.620Z"
+    },
+    "voltage": 230.0,
+    "current": 4.472,
+    "kW": 1.029,
+    "kWh": 0.00143,
+    "powerFactor": 0.81,
+    "kVA": 1.27,
+    "kVAR": 0.744
+  },
+  {
+    "_id": {
+      "$oid": "6a7effe41a910c529e442807"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:40.631Z"
+    },
+    "voltage": 230.0,
+    "current": 4.427,
+    "kW": 1.018,
+    "kWh": 0.00141,
+    "powerFactor": 0.84,
+    "kVA": 1.212,
+    "kVAR": 0.658
+  },
+  {
+    "_id": {
+      "$oid": "6a7effeb1a910c529e442809"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:47.690Z"
+    },
+    "voltage": 230.0,
+    "current": 4.455,
+    "kW": 1.025,
+    "kWh": 0.00142,
+    "powerFactor": 0.87,
+    "kVA": 1.178,
+    "kVAR": 0.581
+  },
+  {
+    "_id": {
+      "$oid": "6a7efff21a910c529e44280b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:45:54.744Z"
+    },
+    "voltage": 230.0,
+    "current": 4.548,
+    "kW": 1.046,
+    "kWh": 0.00145,
+    "powerFactor": 0.87,
+    "kVA": 1.202,
+    "kVAR": 0.592
+  },
+  {
+    "_id": {
+      "$oid": "6a7efff91a910c529e44280d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:01.779Z"
+    },
+    "voltage": 230.0,
+    "current": 4.403,
+    "kW": 1.013,
+    "kWh": 0.00141,
+    "powerFactor": 0.8,
+    "kVA": 1.266,
+    "kVAR": 0.759
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00001a910c529e44280f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:08.806Z"
+    },
+    "voltage": 230.0,
+    "current": 4.273,
+    "kW": 0.983,
+    "kWh": 0.00137,
+    "powerFactor": 0.86,
+    "kVA": 1.143,
+    "kVAR": 0.583
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00071a910c529e442811"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:15.831Z"
+    },
+    "voltage": 230.0,
+    "current": 4.425,
+    "kW": 1.018,
+    "kWh": 0.00141,
+    "powerFactor": 0.88,
+    "kVA": 1.157,
+    "kVAR": 0.55
+  },
+  {
+    "_id": {
+      "$oid": "6a7f000e1a910c529e442813"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:22.893Z"
+    },
+    "voltage": 230.0,
+    "current": 4.433,
+    "kW": 1.02,
+    "kWh": 0.00142,
+    "powerFactor": 0.87,
+    "kVA": 1.172,
+    "kVAR": 0.577
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00151a910c529e442815"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:29.920Z"
+    },
+    "voltage": 230.0,
+    "current": 4.463,
+    "kW": 1.026,
+    "kWh": 0.00143,
+    "powerFactor": 0.86,
+    "kVA": 1.193,
+    "kVAR": 0.609
+  },
+  {
+    "_id": {
+      "$oid": "6a7f001c1a910c529e442817"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:36.948Z"
+    },
+    "voltage": 230.0,
+    "current": 4.41,
+    "kW": 1.014,
+    "kWh": 0.00141,
+    "powerFactor": 0.82,
+    "kVA": 1.237,
+    "kVAR": 0.709
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00231a910c529e442819"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:43.969Z"
+    },
+    "voltage": 230.0,
+    "current": 4.489,
+    "kW": 1.032,
+    "kWh": 0.00143,
+    "powerFactor": 0.82,
+    "kVA": 1.259,
+    "kVAR": 0.721
+  },
+  {
+    "_id": {
+      "$oid": "6a7f002b1a910c529e44281b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:51.018Z"
+    },
+    "voltage": 230.0,
+    "current": 4.528,
+    "kW": 1.041,
+    "kWh": 0.00145,
+    "powerFactor": 0.89,
+    "kVA": 1.17,
+    "kVAR": 0.534
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00321a910c529e44281d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:46:58.045Z"
+    },
+    "voltage": 230.0,
+    "current": 4.47,
+    "kW": 1.028,
+    "kWh": 0.00143,
+    "powerFactor": 0.83,
+    "kVA": 1.239,
+    "kVAR": 0.692
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00391a910c529e44281f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:05.087Z"
+    },
+    "voltage": 230.0,
+    "current": 4.381,
+    "kW": 1.008,
+    "kWh": 0.0014,
+    "powerFactor": 0.86,
+    "kVA": 1.172,
+    "kVAR": 0.598
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00401a910c529e442821"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:12.098Z"
+    },
+    "voltage": 230.0,
+    "current": 4.474,
+    "kW": 1.029,
+    "kWh": 0.00143,
+    "powerFactor": 0.82,
+    "kVA": 1.255,
+    "kVAR": 0.718
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00471a910c529e442823"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:19.183Z"
+    },
+    "voltage": 230.0,
+    "current": 4.396,
+    "kW": 1.011,
+    "kWh": 0.0014,
+    "powerFactor": 0.84,
+    "kVA": 1.204,
+    "kVAR": 0.654
+  },
+  {
+    "_id": {
+      "$oid": "6a7f004e1a910c529e442825"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:26.172Z"
+    },
+    "voltage": 230.0,
+    "current": 4.318,
+    "kW": 0.993,
+    "kWh": 0.00138,
+    "powerFactor": 0.89,
+    "kVA": 1.116,
+    "kVAR": 0.509
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00551a910c529e442827"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:33.215Z"
+    },
+    "voltage": 230.0,
+    "current": 4.46,
+    "kW": 1.026,
+    "kWh": 0.00143,
+    "powerFactor": 0.82,
+    "kVA": 1.251,
+    "kVAR": 0.716
+  },
+  {
+    "_id": {
+      "$oid": "6a7f005c1a910c529e442829"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:40.259Z"
+    },
+    "voltage": 230.0,
+    "current": 4.445,
+    "kW": 1.022,
+    "kWh": 0.00142,
+    "powerFactor": 0.81,
+    "kVA": 1.262,
+    "kVAR": 0.74
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00631a910c529e44282b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:47.293Z"
+    },
+    "voltage": 230.0,
+    "current": 4.339,
+    "kW": 0.998,
+    "kWh": 0.00139,
+    "powerFactor": 0.9,
+    "kVA": 1.109,
+    "kVAR": 0.484
+  },
+  {
+    "_id": {
+      "$oid": "6a7f006a1a910c529e44282d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:47:54.343Z"
+    },
+    "voltage": 230.0,
+    "current": 4.436,
+    "kW": 1.02,
+    "kWh": 0.00142,
+    "powerFactor": 0.81,
+    "kVA": 1.259,
+    "kVAR": 0.738
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00711a910c529e44282f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:01.352Z"
+    },
+    "voltage": 230.0,
+    "current": 4.378,
+    "kW": 1.007,
+    "kWh": 0.0014,
+    "powerFactor": 0.84,
+    "kVA": 1.199,
+    "kVAR": 0.651
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00781a910c529e442831"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:08.382Z"
+    },
+    "voltage": 230.0,
+    "current": 4.372,
+    "kW": 1.006,
+    "kWh": 0.0014,
+    "powerFactor": 0.85,
+    "kVA": 1.184,
+    "kVAR": 0.624
+  },
+  {
+    "_id": {
+      "$oid": "6a7f007f1a910c529e442833"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:15.450Z"
+    },
+    "voltage": 230.0,
+    "current": 4.52,
+    "kW": 1.04,
+    "kWh": 0.00144,
+    "powerFactor": 0.89,
+    "kVA": 1.169,
+    "kVAR": 0.534
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00861a910c529e442835"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:22.463Z"
+    },
+    "voltage": 230.0,
+    "current": 4.399,
+    "kW": 1.012,
+    "kWh": 0.00141,
+    "powerFactor": 0.85,
+    "kVA": 1.191,
+    "kVAR": 0.628
+  },
+  {
+    "_id": {
+      "$oid": "6a7f008d1a910c529e442837"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:29.517Z"
+    },
+    "voltage": 230.0,
+    "current": 4.407,
+    "kW": 1.014,
+    "kWh": 0.00141,
+    "powerFactor": 0.9,
+    "kVA": 1.127,
+    "kVAR": 0.492
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00941a910c529e442839"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:36.560Z"
+    },
+    "voltage": 230.0,
+    "current": 4.357,
+    "kW": 1.002,
+    "kWh": 0.00139,
+    "powerFactor": 0.87,
+    "kVA": 1.152,
+    "kVAR": 0.568
+  },
+  {
+    "_id": {
+      "$oid": "6a7f009b1a910c529e44283b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:43.603Z"
+    },
+    "voltage": 230.0,
+    "current": 4.424,
+    "kW": 1.018,
+    "kWh": 0.00141,
+    "powerFactor": 0.87,
+    "kVA": 1.17,
+    "kVAR": 0.577
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00a21a910c529e44283d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:50.633Z"
+    },
+    "voltage": 230.0,
+    "current": 4.316,
+    "kW": 0.993,
+    "kWh": 0.00138,
+    "powerFactor": 0.88,
+    "kVA": 1.128,
+    "kVAR": 0.535
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00a91a910c529e44283f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:48:57.684Z"
+    },
+    "voltage": 230.0,
+    "current": 4.44,
+    "kW": 1.021,
+    "kWh": 0.00142,
+    "powerFactor": 0.86,
+    "kVA": 1.187,
+    "kVAR": 0.605
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00b01a910c529e442841"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:04.732Z"
+    },
+    "voltage": 230.0,
+    "current": 4.299,
+    "kW": 0.989,
+    "kWh": 0.00137,
+    "powerFactor": 0.85,
+    "kVA": 1.164,
+    "kVAR": 0.614
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00b71a910c529e442843"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:11.768Z"
+    },
+    "voltage": 230.0,
+    "current": 4.489,
+    "kW": 1.032,
+    "kWh": 0.00143,
+    "powerFactor": 0.89,
+    "kVA": 1.16,
+    "kVAR": 0.53
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00be1a910c529e442845"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:18.793Z"
+    },
+    "voltage": 230.0,
+    "current": 4.33,
+    "kW": 0.996,
+    "kWh": 0.00138,
+    "powerFactor": 0.85,
+    "kVA": 1.172,
+    "kVAR": 0.618
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00c51a910c529e442847"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:25.878Z"
+    },
+    "voltage": 230.0,
+    "current": 4.378,
+    "kW": 1.007,
+    "kWh": 0.0014,
+    "powerFactor": 0.83,
+    "kVA": 1.213,
+    "kVAR": 0.676
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00cc1a910c529e442849"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:32.887Z"
+    },
+    "voltage": 230.0,
+    "current": 4.281,
+    "kW": 0.985,
+    "kWh": 0.00137,
+    "powerFactor": 0.87,
+    "kVA": 1.132,
+    "kVAR": 0.558
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00d31a910c529e44284b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:39.887Z"
+    },
+    "voltage": 230.0,
+    "current": 4.473,
+    "kW": 1.029,
+    "kWh": 0.00143,
+    "powerFactor": 0.85,
+    "kVA": 1.211,
+    "kVAR": 0.638
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00da1a910c529e44284d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:46.932Z"
+    },
+    "voltage": 230.0,
+    "current": 4.408,
+    "kW": 1.014,
+    "kWh": 0.00141,
+    "powerFactor": 0.82,
+    "kVA": 1.237,
+    "kVAR": 0.709
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00e11a910c529e44284f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:49:53.959Z"
+    },
+    "voltage": 230.0,
+    "current": 4.48,
+    "kW": 1.03,
+    "kWh": 0.00143,
+    "powerFactor": 0.81,
+    "kVA": 1.272,
+    "kVAR": 0.746
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00e81a910c529e442851"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:00.997Z"
+    },
+    "voltage": 230.0,
+    "current": 4.393,
+    "kW": 1.01,
+    "kWh": 0.0014,
+    "powerFactor": 0.81,
+    "kVA": 1.247,
+    "kVAR": 0.731
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00f01a910c529e442853"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:08.045Z"
+    },
+    "voltage": 230.0,
+    "current": 4.325,
+    "kW": 0.995,
+    "kWh": 0.00138,
+    "powerFactor": 0.84,
+    "kVA": 1.185,
+    "kVAR": 0.644
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00f71a910c529e442855"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:15.121Z"
+    },
+    "voltage": 230.0,
+    "current": 4.418,
+    "kW": 1.016,
+    "kWh": 0.00141,
+    "powerFactor": 0.84,
+    "kVA": 1.21,
+    "kVAR": 0.657
+  },
+  {
+    "_id": {
+      "$oid": "6a7f00fe1a910c529e442857"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:22.133Z"
+    },
+    "voltage": 230.0,
+    "current": 4.366,
+    "kW": 1.004,
+    "kWh": 0.00139,
+    "powerFactor": 0.82,
+    "kVA": 1.224,
+    "kVAR": 0.7
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01051a910c529e442859"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:29.171Z"
+    },
+    "voltage": 230.0,
+    "current": 4.459,
+    "kW": 1.026,
+    "kWh": 0.00143,
+    "powerFactor": 0.84,
+    "kVA": 1.221,
+    "kVAR": 0.662
+  },
+  {
+    "_id": {
+      "$oid": "6a7f010c1a910c529e44285b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:36.235Z"
+    },
+    "voltage": 230.0,
+    "current": 4.238,
+    "kW": 0.975,
+    "kWh": 0.00135,
+    "powerFactor": 0.89,
+    "kVA": 1.096,
+    "kVAR": 0.501
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01131a910c529e44285d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:43.263Z"
+    },
+    "voltage": 230.0,
+    "current": 4.33,
+    "kW": 0.996,
+    "kWh": 0.00138,
+    "powerFactor": 0.87,
+    "kVA": 1.145,
+    "kVAR": 0.565
+  },
+  {
+    "_id": {
+      "$oid": "6a7f011a1a910c529e44285f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:50.318Z"
+    },
+    "voltage": 230.0,
+    "current": 4.455,
+    "kW": 1.025,
+    "kWh": 0.00142,
+    "powerFactor": 0.89,
+    "kVA": 1.152,
+    "kVAR": 0.526
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01211a910c529e442861"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:50:57.372Z"
+    },
+    "voltage": 230.0,
+    "current": 4.426,
+    "kW": 1.018,
+    "kWh": 0.00141,
+    "powerFactor": 0.85,
+    "kVA": 1.198,
+    "kVAR": 0.632
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01281a910c529e442863"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:04.424Z"
+    },
+    "voltage": 230.0,
+    "current": 4.296,
+    "kW": 0.988,
+    "kWh": 0.00137,
+    "powerFactor": 0.85,
+    "kVA": 1.162,
+    "kVAR": 0.612
+  },
+  {
+    "_id": {
+      "$oid": "6a7f012f1a910c529e442865"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:11.600Z"
+    },
+    "voltage": 230.0,
+    "current": 4.436,
+    "kW": 1.02,
+    "kWh": 0.00142,
+    "powerFactor": 0.86,
+    "kVA": 1.186,
+    "kVAR": 0.605
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01361a910c529e442867"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:18.541Z"
+    },
+    "voltage": 230.0,
+    "current": 4.473,
+    "kW": 1.029,
+    "kWh": 0.00143,
+    "powerFactor": 0.87,
+    "kVA": 1.183,
+    "kVAR": 0.584
+  },
+  {
+    "_id": {
+      "$oid": "6a7f013d1a910c529e442869"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:25.535Z"
+    },
+    "voltage": 230.0,
+    "current": 4.375,
+    "kW": 1.006,
+    "kWh": 0.0014,
+    "powerFactor": 0.89,
+    "kVA": 1.13,
+    "kVAR": 0.515
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01441a910c529e44286b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:32.588Z"
+    },
+    "voltage": 230.0,
+    "current": 4.293,
+    "kW": 0.987,
+    "kWh": 0.00137,
+    "powerFactor": 0.89,
+    "kVA": 1.109,
+    "kVAR": 0.506
+  },
+  {
+    "_id": {
+      "$oid": "6a7f014b1a910c529e44286d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:39.673Z"
+    },
+    "voltage": 230.0,
+    "current": 4.394,
+    "kW": 1.011,
+    "kWh": 0.0014,
+    "powerFactor": 0.89,
+    "kVA": 1.136,
+    "kVAR": 0.518
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01521a910c529e44286f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:46.707Z"
+    },
+    "voltage": 230.0,
+    "current": 4.389,
+    "kW": 1.009,
+    "kWh": 0.0014,
+    "powerFactor": 0.89,
+    "kVA": 1.134,
+    "kVAR": 0.518
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01591a910c529e442871"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:51:53.765Z"
+    },
+    "voltage": 230.0,
+    "current": 4.278,
+    "kW": 0.984,
+    "kWh": 0.00137,
+    "powerFactor": 0.89,
+    "kVA": 1.106,
+    "kVAR": 0.505
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01601a910c529e442873"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:00.892Z"
+    },
+    "voltage": 230.0,
+    "current": 4.4,
+    "kW": 1.012,
+    "kWh": 0.00141,
+    "powerFactor": 0.89,
+    "kVA": 1.137,
+    "kVAR": 0.518
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01681a910c529e442875"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:08.051Z"
+    },
+    "voltage": 230.0,
+    "current": 4.508,
+    "kW": 1.037,
+    "kWh": 0.00144,
+    "powerFactor": 0.81,
+    "kVA": 1.28,
+    "kVAR": 0.75
+  },
+  {
+    "_id": {
+      "$oid": "6a7f016f1a910c529e442877"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:15.111Z"
+    },
+    "voltage": 230.0,
+    "current": 4.426,
+    "kW": 1.018,
+    "kWh": 0.00141,
+    "powerFactor": 0.86,
+    "kVA": 1.184,
+    "kVAR": 0.605
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01761a910c529e442879"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:22.272Z"
+    },
+    "voltage": 230.0,
+    "current": 4.34,
+    "kW": 0.998,
+    "kWh": 0.00139,
+    "powerFactor": 0.87,
+    "kVA": 1.147,
+    "kVAR": 0.565
+  },
+  {
+    "_id": {
+      "$oid": "6a7f017d1a910c529e44287b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:29.561Z"
+    },
+    "voltage": 230.0,
+    "current": 4.386,
+    "kW": 1.009,
+    "kWh": 0.0014,
+    "powerFactor": 0.82,
+    "kVA": 1.23,
+    "kVAR": 0.703
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01841a910c529e44287d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:36.719Z"
+    },
+    "voltage": 230.0,
+    "current": 4.341,
+    "kW": 0.998,
+    "kWh": 0.00139,
+    "powerFactor": 0.9,
+    "kVA": 1.109,
+    "kVAR": 0.484
+  },
+  {
+    "_id": {
+      "$oid": "6a7f018b1a910c529e44287f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:43.879Z"
+    },
+    "voltage": 230.0,
+    "current": 4.268,
+    "kW": 0.982,
+    "kWh": 0.00136,
+    "powerFactor": 0.82,
+    "kVA": 1.198,
+    "kVAR": 0.686
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01931a910c529e442881"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:51.069Z"
+    },
+    "voltage": 230.0,
+    "current": 4.354,
+    "kW": 1.001,
+    "kWh": 0.00139,
+    "powerFactor": 0.84,
+    "kVA": 1.192,
+    "kVAR": 0.647
+  },
+  {
+    "_id": {
+      "$oid": "6a7f019a1a910c529e442883"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:52:58.231Z"
+    },
+    "voltage": 230.0,
+    "current": 4.296,
+    "kW": 0.988,
+    "kWh": 0.00137,
+    "powerFactor": 0.88,
+    "kVA": 1.123,
+    "kVAR": 0.534
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01a11a910c529e442885"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:05.305Z"
+    },
+    "voltage": 230.0,
+    "current": 4.268,
+    "kW": 0.982,
+    "kWh": 0.00136,
+    "powerFactor": 0.89,
+    "kVA": 1.103,
+    "kVAR": 0.502
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01a81a910c529e442887"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:12.353Z"
+    },
+    "voltage": 230.0,
+    "current": 4.278,
+    "kW": 0.984,
+    "kWh": 0.00137,
+    "powerFactor": 0.88,
+    "kVA": 1.118,
+    "kVAR": 0.531
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01af1a910c529e442889"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:19.388Z"
+    },
+    "voltage": 230.0,
+    "current": 4.276,
+    "kW": 0.983,
+    "kWh": 0.00137,
+    "powerFactor": 0.89,
+    "kVA": 1.104,
+    "kVAR": 0.503
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01b61a910c529e44288b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:26.568Z"
+    },
+    "voltage": 230.0,
+    "current": 4.216,
+    "kW": 0.97,
+    "kWh": 0.00135,
+    "powerFactor": 0.86,
+    "kVA": 1.128,
+    "kVAR": 0.576
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01bd1a910c529e44288d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:33.500Z"
+    },
+    "voltage": 230.0,
+    "current": 4.374,
+    "kW": 1.006,
+    "kWh": 0.0014,
+    "powerFactor": 0.81,
+    "kVA": 1.242,
+    "kVAR": 0.728
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01c41a910c529e44288f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:40.579Z"
+    },
+    "voltage": 230.0,
+    "current": 4.417,
+    "kW": 1.016,
+    "kWh": 0.00141,
+    "powerFactor": 0.81,
+    "kVA": 1.254,
+    "kVAR": 0.735
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01cb1a910c529e442891"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:47.647Z"
+    },
+    "voltage": 230.0,
+    "current": 4.451,
+    "kW": 1.024,
+    "kWh": 0.00142,
+    "powerFactor": 0.85,
+    "kVA": 1.205,
+    "kVAR": 0.635
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01d21a910c529e442893"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:53:54.678Z"
+    },
+    "voltage": 230.0,
+    "current": 4.252,
+    "kW": 0.978,
+    "kWh": 0.00136,
+    "powerFactor": 0.83,
+    "kVA": 1.178,
+    "kVAR": 0.657
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01d91a910c529e442895"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:01.730Z"
+    },
+    "voltage": 230.0,
+    "current": 4.294,
+    "kW": 0.988,
+    "kWh": 0.00137,
+    "powerFactor": 0.83,
+    "kVA": 1.19,
+    "kVAR": 0.663
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01e01a910c529e442897"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:08.781Z"
+    },
+    "voltage": 230.0,
+    "current": 4.365,
+    "kW": 1.004,
+    "kWh": 0.00139,
+    "powerFactor": 0.82,
+    "kVA": 1.224,
+    "kVAR": 0.7
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01e71a910c529e442899"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:15.807Z"
+    },
+    "voltage": 230.0,
+    "current": 4.388,
+    "kW": 1.009,
+    "kWh": 0.0014,
+    "powerFactor": 0.89,
+    "kVA": 1.134,
+    "kVAR": 0.518
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01ee1a910c529e44289b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:22.857Z"
+    },
+    "voltage": 230.0,
+    "current": 4.463,
+    "kW": 1.026,
+    "kWh": 0.00143,
+    "powerFactor": 0.86,
+    "kVA": 1.193,
+    "kVAR": 0.609
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01f51a910c529e44289d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:29.938Z"
+    },
+    "voltage": 230.0,
+    "current": 4.355,
+    "kW": 1.002,
+    "kWh": 0.00139,
+    "powerFactor": 0.81,
+    "kVA": 1.237,
+    "kVAR": 0.725
+  },
+  {
+    "_id": {
+      "$oid": "6a7f01fc1a910c529e44289f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:36.972Z"
+    },
+    "voltage": 230.0,
+    "current": 4.242,
+    "kW": 0.976,
+    "kWh": 0.00136,
+    "powerFactor": 0.82,
+    "kVA": 1.19,
+    "kVAR": 0.681
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02031a910c529e4428a1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:43.992Z"
+    },
+    "voltage": 230.0,
+    "current": 4.342,
+    "kW": 0.999,
+    "kWh": 0.00139,
+    "powerFactor": 0.89,
+    "kVA": 1.122,
+    "kVAR": 0.511
+  },
+  {
+    "_id": {
+      "$oid": "6a7f020b1a910c529e4428a3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:51.024Z"
+    },
+    "voltage": 230.0,
+    "current": 4.289,
+    "kW": 0.986,
+    "kWh": 0.00137,
+    "powerFactor": 0.85,
+    "kVA": 1.16,
+    "kVAR": 0.611
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02121a910c529e4428a5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:54:58.067Z"
+    },
+    "voltage": 230.0,
+    "current": 4.441,
+    "kW": 1.021,
+    "kWh": 0.00142,
+    "powerFactor": 0.83,
+    "kVA": 1.23,
+    "kVAR": 0.686
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02191a910c529e4428a7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:05.141Z"
+    },
+    "voltage": 230.0,
+    "current": 4.401,
+    "kW": 1.012,
+    "kWh": 0.00141,
+    "powerFactor": 0.88,
+    "kVA": 1.15,
+    "kVAR": 0.546
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02201a910c529e4428a9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:12.177Z"
+    },
+    "voltage": 230.0,
+    "current": 4.244,
+    "kW": 0.976,
+    "kWh": 0.00136,
+    "powerFactor": 0.9,
+    "kVA": 1.084,
+    "kVAR": 0.472
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02271a910c529e4428ab"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:19.219Z"
+    },
+    "voltage": 230.0,
+    "current": 4.251,
+    "kW": 0.978,
+    "kWh": 0.00136,
+    "powerFactor": 0.88,
+    "kVA": 1.111,
+    "kVAR": 0.527
+  },
+  {
+    "_id": {
+      "$oid": "6a7f022e1a910c529e4428ad"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:26.261Z"
+    },
+    "voltage": 230.0,
+    "current": 4.315,
+    "kW": 0.992,
+    "kWh": 0.00138,
+    "powerFactor": 0.84,
+    "kVA": 1.181,
+    "kVAR": 0.641
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02351a910c529e4428af"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:33.289Z"
+    },
+    "voltage": 230.0,
+    "current": 4.328,
+    "kW": 0.995,
+    "kWh": 0.00138,
+    "powerFactor": 0.8,
+    "kVA": 1.244,
+    "kVAR": 0.747
+  },
+  {
+    "_id": {
+      "$oid": "6a7f023c1a910c529e4428b1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:40.340Z"
+    },
+    "voltage": 230.0,
+    "current": 4.413,
+    "kW": 1.015,
+    "kWh": 0.00141,
+    "powerFactor": 0.85,
+    "kVA": 1.194,
+    "kVAR": 0.629
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02431a910c529e4428b3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:47.378Z"
+    },
+    "voltage": 230.0,
+    "current": 4.327,
+    "kW": 0.995,
+    "kWh": 0.00138,
+    "powerFactor": 0.86,
+    "kVA": 1.157,
+    "kVAR": 0.59
+  },
+  {
+    "_id": {
+      "$oid": "6a7f024a1a910c529e4428b5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:55:54.430Z"
+    },
+    "voltage": 230.0,
+    "current": 4.201,
+    "kW": 0.966,
+    "kWh": 0.00134,
+    "powerFactor": 0.87,
+    "kVA": 1.11,
+    "kVAR": 0.547
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02511a910c529e4428b7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:01.474Z"
+    },
+    "voltage": 230.0,
+    "current": 4.39,
+    "kW": 1.01,
+    "kWh": 0.0014,
+    "powerFactor": 0.81,
+    "kVA": 1.247,
+    "kVAR": 0.731
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02581a910c529e4428b9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:08.546Z"
+    },
+    "voltage": 230.0,
+    "current": 4.297,
+    "kW": 0.988,
+    "kWh": 0.00137,
+    "powerFactor": 0.85,
+    "kVA": 1.162,
+    "kVAR": 0.612
+  },
+  {
+    "_id": {
+      "$oid": "6a7f025f1a910c529e4428bb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:15.580Z"
+    },
+    "voltage": 230.0,
+    "current": 4.261,
+    "kW": 0.98,
+    "kWh": 0.00136,
+    "powerFactor": 0.89,
+    "kVA": 1.101,
+    "kVAR": 0.502
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02661a910c529e4428bd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:22.640Z"
+    },
+    "voltage": 230.0,
+    "current": 4.317,
+    "kW": 0.993,
+    "kWh": 0.00138,
+    "powerFactor": 0.9,
+    "kVA": 1.103,
+    "kVAR": 0.48
+  },
+  {
+    "_id": {
+      "$oid": "6a7f026d1a910c529e4428bf"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:29.660Z"
+    },
+    "voltage": 230.0,
+    "current": 4.347,
+    "kW": 1.0,
+    "kWh": 0.00139,
+    "powerFactor": 0.83,
+    "kVA": 1.205,
+    "kVAR": 0.672
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02741a910c529e4428c1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:36.717Z"
+    },
+    "voltage": 230.0,
+    "current": 4.263,
+    "kW": 0.98,
+    "kWh": 0.00136,
+    "powerFactor": 0.82,
+    "kVA": 1.195,
+    "kVAR": 0.684
+  },
+  {
+    "_id": {
+      "$oid": "6a7f027b1a910c529e4428c3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:43.864Z"
+    },
+    "voltage": 230.0,
+    "current": 4.286,
+    "kW": 0.986,
+    "kWh": 0.00137,
+    "powerFactor": 0.83,
+    "kVA": 1.188,
+    "kVAR": 0.663
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02821a910c529e4428c5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:50.806Z"
+    },
+    "voltage": 230.0,
+    "current": 4.385,
+    "kW": 1.009,
+    "kWh": 0.0014,
+    "powerFactor": 0.84,
+    "kVA": 1.201,
+    "kVAR": 0.651
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02891a910c529e4428c7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:56:57.841Z"
+    },
+    "voltage": 230.0,
+    "current": 4.336,
+    "kW": 0.997,
+    "kWh": 0.00138,
+    "powerFactor": 0.86,
+    "kVA": 1.159,
+    "kVAR": 0.591
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02901a910c529e4428c9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:04.877Z"
+    },
+    "voltage": 230.0,
+    "current": 4.322,
+    "kW": 0.994,
+    "kWh": 0.00138,
+    "powerFactor": 0.88,
+    "kVA": 1.13,
+    "kVAR": 0.537
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02971a910c529e4428cb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:11.916Z"
+    },
+    "voltage": 230.0,
+    "current": 4.237,
+    "kW": 0.975,
+    "kWh": 0.00135,
+    "powerFactor": 0.81,
+    "kVA": 1.204,
+    "kVAR": 0.706
+  },
+  {
+    "_id": {
+      "$oid": "6a7f029e1a910c529e4428cd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:18.984Z"
+    },
+    "voltage": 230.0,
+    "current": 12.742,
+    "kW": 2.931,
+    "kWh": 0.00407,
+    "powerFactor": 0.89,
+    "kVA": 3.293,
+    "kVAR": 1.501
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02a61a910c529e4428cf"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:26.035Z"
+    },
+    "voltage": 230.0,
+    "current": 12.817,
+    "kW": 2.948,
+    "kWh": 0.00409,
+    "powerFactor": 0.82,
+    "kVA": 3.595,
+    "kVAR": 2.058
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02ad1a910c529e4428d1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:33.072Z"
+    },
+    "voltage": 230.0,
+    "current": 12.391,
+    "kW": 2.85,
+    "kWh": 0.00396,
+    "powerFactor": 0.81,
+    "kVA": 3.519,
+    "kVAR": 2.064
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02b41a910c529e4428d3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:40.114Z"
+    },
+    "voltage": 230.0,
+    "current": 12.952,
+    "kW": 2.979,
+    "kWh": 0.00414,
+    "powerFactor": 0.88,
+    "kVA": 3.385,
+    "kVAR": 1.607
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02bb1a910c529e4428d5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:47.189Z"
+    },
+    "voltage": 230.0,
+    "current": 12.668,
+    "kW": 2.914,
+    "kWh": 0.00405,
+    "powerFactor": 0.8,
+    "kVA": 3.643,
+    "kVAR": 2.186
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02c21a910c529e4428d7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:57:54.248Z"
+    },
+    "voltage": 230.0,
+    "current": 12.692,
+    "kW": 2.919,
+    "kWh": 0.00405,
+    "powerFactor": 0.85,
+    "kVA": 3.434,
+    "kVAR": 1.809
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02c91a910c529e4428d9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:01.287Z"
+    },
+    "voltage": 230.0,
+    "current": 12.326,
+    "kW": 2.835,
+    "kWh": 0.00394,
+    "powerFactor": 0.82,
+    "kVA": 3.457,
+    "kVAR": 1.978
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02d01a910c529e4428db"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:08.340Z"
+    },
+    "voltage": 230.0,
+    "current": 13.038,
+    "kW": 2.999,
+    "kWh": 0.00417,
+    "powerFactor": 0.89,
+    "kVA": 3.37,
+    "kVAR": 1.537
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02d71a910c529e4428dd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:15.463Z"
+    },
+    "voltage": 230.0,
+    "current": 12.651,
+    "kW": 2.91,
+    "kWh": 0.00404,
+    "powerFactor": 0.88,
+    "kVA": 3.307,
+    "kVAR": 1.571
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02de1a910c529e4428df"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:22.485Z"
+    },
+    "voltage": 230.0,
+    "current": 4.174,
+    "kW": 0.96,
+    "kWh": 0.00133,
+    "powerFactor": 0.82,
+    "kVA": 1.171,
+    "kVAR": 0.671
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02e51a910c529e4428e1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:29.529Z"
+    },
+    "voltage": 230.0,
+    "current": 4.291,
+    "kW": 0.987,
+    "kWh": 0.00137,
+    "powerFactor": 0.86,
+    "kVA": 1.148,
+    "kVAR": 0.586
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02ec1a910c529e4428e3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:36.595Z"
+    },
+    "voltage": 230.0,
+    "current": 4.309,
+    "kW": 0.991,
+    "kWh": 0.00138,
+    "powerFactor": 0.88,
+    "kVA": 1.126,
+    "kVAR": 0.535
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02f31a910c529e4428e5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:43.677Z"
+    },
+    "voltage": 230.0,
+    "current": 4.221,
+    "kW": 0.971,
+    "kWh": 0.00135,
+    "powerFactor": 0.8,
+    "kVA": 1.214,
+    "kVAR": 0.729
+  },
+  {
+    "_id": {
+      "$oid": "6a7f02fa1a910c529e4428e7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:50.761Z"
+    },
+    "voltage": 230.0,
+    "current": 4.211,
+    "kW": 0.969,
+    "kWh": 0.00135,
+    "powerFactor": 0.8,
+    "kVA": 1.211,
+    "kVAR": 0.726
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03011a910c529e4428e9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:58:57.814Z"
+    },
+    "voltage": 230.0,
+    "current": 4.442,
+    "kW": 1.022,
+    "kWh": 0.00142,
+    "powerFactor": 0.81,
+    "kVA": 1.262,
+    "kVAR": 0.74
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03081a910c529e4428eb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:04.879Z"
+    },
+    "voltage": 230.0,
+    "current": 4.252,
+    "kW": 0.978,
+    "kWh": 0.00136,
+    "powerFactor": 0.82,
+    "kVA": 1.193,
+    "kVAR": 0.683
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03101a910c529e4428ed"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:12.009Z"
+    },
+    "voltage": 230.0,
+    "current": 4.293,
+    "kW": 0.987,
+    "kWh": 0.00137,
+    "powerFactor": 0.9,
+    "kVA": 1.097,
+    "kVAR": 0.479
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03171a910c529e4428ef"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:19.062Z"
+    },
+    "voltage": 230.0,
+    "current": 4.354,
+    "kW": 1.001,
+    "kWh": 0.00139,
+    "powerFactor": 0.84,
+    "kVA": 1.192,
+    "kVAR": 0.647
+  },
+  {
+    "_id": {
+      "$oid": "6a7f031e1a910c529e4428f1"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:26.121Z"
+    },
+    "voltage": 230.0,
+    "current": 4.233,
+    "kW": 0.974,
+    "kWh": 0.00135,
+    "powerFactor": 0.9,
+    "kVA": 1.082,
+    "kVAR": 0.471
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03251a910c529e4428f3"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:33.237Z"
+    },
+    "voltage": 230.0,
+    "current": 4.347,
+    "kW": 1.0,
+    "kWh": 0.00139,
+    "powerFactor": 0.87,
+    "kVA": 1.149,
+    "kVAR": 0.566
+  },
+  {
+    "_id": {
+      "$oid": "6a7f032c1a910c529e4428f5"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:40.242Z"
+    },
+    "voltage": 230.0,
+    "current": 4.416,
+    "kW": 1.016,
+    "kWh": 0.00141,
+    "powerFactor": 0.82,
+    "kVA": 1.239,
+    "kVAR": 0.709
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03331a910c529e4428f7"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:47.289Z"
+    },
+    "voltage": 230.0,
+    "current": 4.137,
+    "kW": 0.952,
+    "kWh": 0.00132,
+    "powerFactor": 0.83,
+    "kVA": 1.147,
+    "kVAR": 0.64
+  },
+  {
+    "_id": {
+      "$oid": "6a7f033a1a910c529e4428f9"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T11:59:54.314Z"
+    },
+    "voltage": 230.0,
+    "current": 4.229,
+    "kW": 0.973,
+    "kWh": 0.00135,
+    "powerFactor": 0.86,
+    "kVA": 1.131,
+    "kVAR": 0.577
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03411a910c529e4428fb"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:01.369Z"
+    },
+    "voltage": 230.0,
+    "current": 4.14,
+    "kW": 0.952,
+    "kWh": 0.00132,
+    "powerFactor": 0.82,
+    "kVA": 1.161,
+    "kVAR": 0.665
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03481a910c529e4428fd"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:08.506Z"
+    },
+    "voltage": 230.0,
+    "current": 4.257,
+    "kW": 0.979,
+    "kWh": 0.00136,
+    "powerFactor": 0.9,
+    "kVA": 1.088,
+    "kVAR": 0.475
+  },
+  {
+    "_id": {
+      "$oid": "6a7f034f1a910c529e4428ff"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:15.494Z"
+    },
+    "voltage": 230.0,
+    "current": 4.207,
+    "kW": 0.968,
+    "kWh": 0.00134,
+    "powerFactor": 0.86,
+    "kVA": 1.126,
+    "kVAR": 0.575
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03561a910c529e442901"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:22.549Z"
+    },
+    "voltage": 230.0,
+    "current": 4.23,
+    "kW": 0.973,
+    "kWh": 0.00135,
+    "powerFactor": 0.85,
+    "kVA": 1.145,
+    "kVAR": 0.604
+  },
+  {
+    "_id": {
+      "$oid": "6a7f035d1a910c529e442903"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:29.615Z"
+    },
+    "voltage": 230.0,
+    "current": 4.21,
+    "kW": 0.968,
+    "kWh": 0.00134,
+    "powerFactor": 0.83,
+    "kVA": 1.166,
+    "kVAR": 0.65
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03641a910c529e442905"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:36.641Z"
+    },
+    "voltage": 230.0,
+    "current": 4.238,
+    "kW": 0.975,
+    "kWh": 0.00135,
+    "powerFactor": 0.81,
+    "kVA": 1.204,
+    "kVAR": 0.706
+  },
+  {
+    "_id": {
+      "$oid": "6a7f036b1a910c529e442907"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:43.720Z"
+    },
+    "voltage": 230.0,
+    "current": 4.175,
+    "kW": 0.96,
+    "kWh": 0.00133,
+    "powerFactor": 0.8,
+    "kVA": 1.2,
+    "kVAR": 0.72
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03721a910c529e442909"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:50.766Z"
+    },
+    "voltage": 230.0,
+    "current": 4.047,
+    "kW": 0.931,
+    "kWh": 0.00129,
+    "powerFactor": 0.84,
+    "kVA": 1.108,
+    "kVAR": 0.601
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03791a910c529e44290b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:00:57.811Z"
+    },
+    "voltage": 230.0,
+    "current": 4.328,
+    "kW": 0.995,
+    "kWh": 0.00138,
+    "powerFactor": 0.85,
+    "kVA": 1.171,
+    "kVAR": 0.617
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03801a910c529e44290d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:04.862Z"
+    },
+    "voltage": 230.0,
+    "current": 4.176,
+    "kW": 0.96,
+    "kWh": 0.00133,
+    "powerFactor": 0.85,
+    "kVA": 1.129,
+    "kVAR": 0.594
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03881a910c529e44290f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:12.037Z"
+    },
+    "voltage": 230.0,
+    "current": 4.102,
+    "kW": 0.943,
+    "kWh": 0.00131,
+    "powerFactor": 0.9,
+    "kVA": 1.048,
+    "kVAR": 0.457
+  },
+  {
+    "_id": {
+      "$oid": "6a7f038f1a910c529e442911"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:19.048Z"
+    },
+    "voltage": 230.0,
+    "current": 4.065,
+    "kW": 0.935,
+    "kWh": 0.0013,
+    "powerFactor": 0.86,
+    "kVA": 1.087,
+    "kVAR": 0.554
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03961a910c529e442913"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:26.117Z"
+    },
+    "voltage": 230.0,
+    "current": 4.178,
+    "kW": 0.961,
+    "kWh": 0.00133,
+    "powerFactor": 0.88,
+    "kVA": 1.092,
+    "kVAR": 0.519
+  },
+  {
+    "_id": {
+      "$oid": "6a7f039d1a910c529e442915"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:33.168Z"
+    },
+    "voltage": 230.0,
+    "current": 4.331,
+    "kW": 0.996,
+    "kWh": 0.00138,
+    "powerFactor": 0.85,
+    "kVA": 1.172,
+    "kVAR": 0.618
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03a41a910c529e442917"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:40.350Z"
+    },
+    "voltage": 230.0,
+    "current": 4.359,
+    "kW": 1.003,
+    "kWh": 0.00139,
+    "powerFactor": 0.85,
+    "kVA": 1.18,
+    "kVAR": 0.622
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03ab1a910c529e442919"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:47.414Z"
+    },
+    "voltage": 230.0,
+    "current": 4.242,
+    "kW": 0.976,
+    "kWh": 0.00136,
+    "powerFactor": 0.87,
+    "kVA": 1.122,
+    "kVAR": 0.553
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03b21a910c529e44291b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:01:54.721Z"
+    },
+    "voltage": 230.0,
+    "current": 4.28,
+    "kW": 0.984,
+    "kWh": 0.00137,
+    "powerFactor": 0.82,
+    "kVA": 1.2,
+    "kVAR": 0.687
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03b91a910c529e44291d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:01.502Z"
+    },
+    "voltage": 230.0,
+    "current": 4.089,
+    "kW": 0.94,
+    "kWh": 0.00131,
+    "powerFactor": 0.84,
+    "kVA": 1.119,
+    "kVAR": 0.607
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03c01a910c529e44291f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:08.533Z"
+    },
+    "voltage": 230.0,
+    "current": 4.254,
+    "kW": 0.978,
+    "kWh": 0.00136,
+    "powerFactor": 0.89,
+    "kVA": 1.099,
+    "kVAR": 0.501
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03c71a910c529e442921"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:15.582Z"
+    },
+    "voltage": 230.0,
+    "current": 4.283,
+    "kW": 0.985,
+    "kWh": 0.00137,
+    "powerFactor": 0.89,
+    "kVA": 1.107,
+    "kVAR": 0.505
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03ce1a910c529e442923"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:22.650Z"
+    },
+    "voltage": 230.0,
+    "current": 4.068,
+    "kW": 0.936,
+    "kWh": 0.0013,
+    "powerFactor": 0.83,
+    "kVA": 1.128,
+    "kVAR": 0.63
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03d51a910c529e442925"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:29.696Z"
+    },
+    "voltage": 230.0,
+    "current": 4.24,
+    "kW": 0.975,
+    "kWh": 0.00135,
+    "powerFactor": 0.83,
+    "kVA": 1.175,
+    "kVAR": 0.656
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03dc1a910c529e442927"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:36.740Z"
+    },
+    "voltage": 230.0,
+    "current": 4.257,
+    "kW": 0.979,
+    "kWh": 0.00136,
+    "powerFactor": 0.89,
+    "kVA": 1.1,
+    "kVAR": 0.502
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03e31a910c529e442929"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:43.767Z"
+    },
+    "voltage": 230.0,
+    "current": 4.13,
+    "kW": 0.95,
+    "kWh": 0.00132,
+    "powerFactor": 0.81,
+    "kVA": 1.173,
+    "kVAR": 0.688
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03ea1a910c529e44292b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:50.821Z"
+    },
+    "voltage": 230.0,
+    "current": 4.167,
+    "kW": 0.958,
+    "kWh": 0.00133,
+    "powerFactor": 0.82,
+    "kVA": 1.168,
+    "kVAR": 0.668
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03f11a910c529e44292d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:02:57.857Z"
+    },
+    "voltage": 230.0,
+    "current": 4.19,
+    "kW": 0.964,
+    "kWh": 0.00134,
+    "powerFactor": 0.82,
+    "kVA": 1.176,
+    "kVAR": 0.674
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03f81a910c529e44292f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:04.899Z"
+    },
+    "voltage": 230.0,
+    "current": 4.211,
+    "kW": 0.969,
+    "kWh": 0.00135,
+    "powerFactor": 0.89,
+    "kVA": 1.089,
+    "kVAR": 0.497
+  },
+  {
+    "_id": {
+      "$oid": "6a7f03ff1a910c529e442931"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:11.974Z"
+    },
+    "voltage": 230.0,
+    "current": 4.136,
+    "kW": 0.951,
+    "kWh": 0.00132,
+    "powerFactor": 0.84,
+    "kVA": 1.132,
+    "kVAR": 0.614
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04071a910c529e442933"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:19.025Z"
+    },
+    "voltage": 230.0,
+    "current": 4.121,
+    "kW": 0.948,
+    "kWh": 0.00132,
+    "powerFactor": 0.86,
+    "kVA": 1.102,
+    "kVAR": 0.562
+  },
+  {
+    "_id": {
+      "$oid": "6a7f040e1a910c529e442935"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:26.087Z"
+    },
+    "voltage": 230.0,
+    "current": 4.191,
+    "kW": 0.964,
+    "kWh": 0.00134,
+    "powerFactor": 0.86,
+    "kVA": 1.121,
+    "kVAR": 0.572
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04151a910c529e442937"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:33.122Z"
+    },
+    "voltage": 230.0,
+    "current": 4.164,
+    "kW": 0.958,
+    "kWh": 0.00133,
+    "powerFactor": 0.88,
+    "kVA": 1.089,
+    "kVAR": 0.518
+  },
+  {
+    "_id": {
+      "$oid": "6a7f041c1a910c529e442939"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:40.162Z"
+    },
+    "voltage": 230.0,
+    "current": 3.996,
+    "kW": 0.919,
+    "kWh": 0.00128,
+    "powerFactor": 0.82,
+    "kVA": 1.121,
+    "kVAR": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04231a910c529e44293b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:47.293Z"
+    },
+    "voltage": 230.0,
+    "current": 4.192,
+    "kW": 0.964,
+    "kWh": 0.00134,
+    "powerFactor": 0.81,
+    "kVA": 1.19,
+    "kVAR": 0.698
+  },
+  {
+    "_id": {
+      "$oid": "6a7f042a1a910c529e44293d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:03:54.330Z"
+    },
+    "voltage": 230.0,
+    "current": 4.201,
+    "kW": 0.966,
+    "kWh": 0.00134,
+    "powerFactor": 0.88,
+    "kVA": 1.098,
+    "kVAR": 0.522
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04311a910c529e44293f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:01.377Z"
+    },
+    "voltage": 230.0,
+    "current": 4.146,
+    "kW": 0.954,
+    "kWh": 0.00133,
+    "powerFactor": 0.84,
+    "kVA": 1.136,
+    "kVAR": 0.617
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04381a910c529e442941"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:08.440Z"
+    },
+    "voltage": 230.0,
+    "current": 4.191,
+    "kW": 0.964,
+    "kWh": 0.00134,
+    "powerFactor": 0.88,
+    "kVA": 1.095,
+    "kVAR": 0.519
+  },
+  {
+    "_id": {
+      "$oid": "6a7f043f1a910c529e442943"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:15.498Z"
+    },
+    "voltage": 230.0,
+    "current": 4.073,
+    "kW": 0.937,
+    "kWh": 0.0013,
+    "powerFactor": 0.82,
+    "kVA": 1.143,
+    "kVAR": 0.655
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04461a910c529e442945"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:22.594Z"
+    },
+    "voltage": 230.0,
+    "current": 3.998,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "6a7f044d1a910c529e442947"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:29.637Z"
+    },
+    "voltage": 230.0,
+    "current": 4.086,
+    "kW": 0.94,
+    "kWh": 0.00131,
+    "powerFactor": 0.89,
+    "kVA": 1.056,
+    "kVAR": 0.481
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04541a910c529e442949"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:36.700Z"
+    },
+    "voltage": 230.0,
+    "current": 4.195,
+    "kW": 0.965,
+    "kWh": 0.00134,
+    "powerFactor": 0.9,
+    "kVA": 1.072,
+    "kVAR": 0.467
+  },
+  {
+    "_id": {
+      "$oid": "6a7f045b1a910c529e44294b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:43.741Z"
+    },
+    "voltage": 230.0,
+    "current": 4.103,
+    "kW": 0.944,
+    "kWh": 0.00131,
+    "powerFactor": 0.85,
+    "kVA": 1.111,
+    "kVAR": 0.586
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04621a910c529e44294d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:50.784Z"
+    },
+    "voltage": 230.0,
+    "current": 4.138,
+    "kW": 0.952,
+    "kWh": 0.00132,
+    "powerFactor": 0.87,
+    "kVA": 1.094,
+    "kVAR": 0.539
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04691a910c529e44294f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:04:57.857Z"
+    },
+    "voltage": 230.0,
+    "current": 4.096,
+    "kW": 0.942,
+    "kWh": 0.00131,
+    "powerFactor": 0.88,
+    "kVA": 1.07,
+    "kVAR": 0.507
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04701a910c529e442951"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:04.926Z"
+    },
+    "voltage": 230.0,
+    "current": 4.074,
+    "kW": 0.937,
+    "kWh": 0.0013,
+    "powerFactor": 0.9,
+    "kVA": 1.041,
+    "kVAR": 0.454
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04771a910c529e442953"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:11.977Z"
+    },
+    "voltage": 230.0,
+    "current": 4.026,
+    "kW": 0.926,
+    "kWh": 0.00129,
+    "powerFactor": 0.83,
+    "kVA": 1.116,
+    "kVAR": 0.623
+  },
+  {
+    "_id": {
+      "$oid": "6a7f047f1a910c529e442955"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:19.022Z"
+    },
+    "voltage": 230.0,
+    "current": 4.099,
+    "kW": 0.943,
+    "kWh": 0.00131,
+    "powerFactor": 0.9,
+    "kVA": 1.048,
+    "kVAR": 0.457
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04861a910c529e442957"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:26.065Z"
+    },
+    "voltage": 230.0,
+    "current": 3.998,
+    "kW": 0.92,
+    "kWh": 0.00128,
+    "powerFactor": 0.88,
+    "kVA": 1.045,
+    "kVAR": 0.496
+  },
+  {
+    "_id": {
+      "$oid": "6a7f048d1a910c529e442959"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:33.204Z"
+    },
+    "voltage": 230.0,
+    "current": 4.181,
+    "kW": 0.962,
+    "kWh": 0.00134,
+    "powerFactor": 0.81,
+    "kVA": 1.188,
+    "kVAR": 0.697
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04941a910c529e44295b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:40.217Z"
+    },
+    "voltage": 230.0,
+    "current": 4.186,
+    "kW": 0.963,
+    "kWh": 0.00134,
+    "powerFactor": 0.85,
+    "kVA": 1.133,
+    "kVAR": 0.597
+  },
+  {
+    "_id": {
+      "$oid": "6a7f049b1a910c529e44295d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:47.275Z"
+    },
+    "voltage": 230.0,
+    "current": 4.104,
+    "kW": 0.944,
+    "kWh": 0.00131,
+    "powerFactor": 0.86,
+    "kVA": 1.098,
+    "kVAR": 0.561
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04a21a910c529e44295f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:05:54.356Z"
+    },
+    "voltage": 230.0,
+    "current": 4.044,
+    "kW": 0.93,
+    "kWh": 0.00129,
+    "powerFactor": 0.9,
+    "kVA": 1.033,
+    "kVAR": 0.45
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04a91a910c529e442961"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:01.372Z"
+    },
+    "voltage": 230.0,
+    "current": 4.011,
+    "kW": 0.923,
+    "kWh": 0.00128,
+    "powerFactor": 0.89,
+    "kVA": 1.037,
+    "kVAR": 0.473
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04b01a910c529e442963"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:08.420Z"
+    },
+    "voltage": 230.0,
+    "current": 4.116,
+    "kW": 0.947,
+    "kWh": 0.00132,
+    "powerFactor": 0.8,
+    "kVA": 1.184,
+    "kVAR": 0.711
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04b71a910c529e442965"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:15.451Z"
+    },
+    "voltage": 230.0,
+    "current": 4.09,
+    "kW": 0.941,
+    "kWh": 0.00131,
+    "powerFactor": 0.83,
+    "kVA": 1.134,
+    "kVAR": 0.633
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04be1a910c529e442967"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:22.515Z"
+    },
+    "voltage": 230.0,
+    "current": 4.148,
+    "kW": 0.954,
+    "kWh": 0.00133,
+    "powerFactor": 0.9,
+    "kVA": 1.06,
+    "kVAR": 0.462
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04c51a910c529e442969"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:29.532Z"
+    },
+    "voltage": 230.0,
+    "current": 4.071,
+    "kW": 0.936,
+    "kWh": 0.0013,
+    "powerFactor": 0.87,
+    "kVA": 1.076,
+    "kVAR": 0.531
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04cc1a910c529e44296b"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:36.644Z"
+    },
+    "voltage": 230.0,
+    "current": 4.162,
+    "kW": 0.957,
+    "kWh": 0.00133,
+    "powerFactor": 0.86,
+    "kVA": 1.113,
+    "kVAR": 0.568
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04d31a910c529e44296d"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:43.686Z"
+    },
+    "voltage": 230.0,
+    "current": 4.092,
+    "kW": 0.941,
+    "kWh": 0.00131,
+    "powerFactor": 0.9,
+    "kVA": 1.046,
+    "kVAR": 0.457
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04da1a910c529e44296f"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:50.729Z"
+    },
+    "voltage": 230.0,
+    "current": 4.111,
+    "kW": 0.946,
+    "kWh": 0.00131,
+    "powerFactor": 0.81,
+    "kVA": 1.168,
+    "kVAR": 0.685
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04e11a910c529e442971"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:06:57.773Z"
+    },
+    "voltage": 230.0,
+    "current": 3.932,
+    "kW": 0.904,
+    "kWh": 0.00126,
+    "powerFactor": 0.83,
+    "kVA": 1.089,
+    "kVAR": 0.607
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04e81a910c529e442973"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:07:04.849Z"
+    },
+    "voltage": 230.0,
+    "current": 4.083,
+    "kW": 0.939,
+    "kWh": 0.0013,
+    "powerFactor": 0.81,
+    "kVA": 1.159,
+    "kVAR": 0.679
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04ef1a910c529e442975"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:07:11.963Z"
+    },
+    "voltage": 230.0,
+    "current": 4.188,
+    "kW": 0.963,
+    "kWh": 0.00134,
+    "powerFactor": 0.84,
+    "kVA": 1.146,
+    "kVAR": 0.621
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04f71a910c529e442977"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:07:19.063Z"
+    },
+    "voltage": 230.0,
+    "current": 4.069,
+    "kW": 0.936,
+    "kWh": 0.0013,
+    "powerFactor": 0.82,
+    "kVA": 1.141,
+    "kVAR": 0.653
+  },
+  {
+    "_id": {
+      "$oid": "6a7f04fe1a910c529e442979"
+    },
+    "timestamp": {
+      "$date": "2026-08-14T12:07:26.105Z"
+    },
+    "voltage": 230.0,
+    "current": 4.13,
+    "kW": 0.95,
+    "kWh": 0.00132,
+    "powerFactor": 0.88,
+    "kVA": 1.08,
+    "kVAR": 0.514
+  }
+]
